@@ -1,0 +1,18 @@
+# Blueprint para Render. Requer serviço com disco persistente (pode ter custo).
+services:
+  - type: web
+    name: testes-para-casais
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: APP_ENV
+        value: production
+      - key: DB_PATH
+        value: /app/data/casais.sqlite3
+    disk:
+      name: casais-db
+      mountPath: /app/data
+      sizeGB: 1
