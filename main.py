@@ -21,7 +21,7 @@ from pydantic import BaseModel, Field, StrictInt, field_validator
 from starlette.middleware.sessions import SessionMiddleware
 
 ROOT = Path(__file__).resolve().parent
-STATIC = ROOT / 'static'
+STATIC = ROOT
 DB_PATH = Path(os.getenv('DB_PATH', str(ROOT / 'data' / 'casais.sqlite3')))
 SECRET_KEY = os.getenv('SESSION_SECRET') or secrets.token_urlsafe(48)
 IS_PRODUCTION = os.getenv('APP_ENV', '').lower() == 'production'
