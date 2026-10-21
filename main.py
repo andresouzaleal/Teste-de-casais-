@@ -16,7 +16,6 @@ from typing import Literal, Optional
 
 from fastapi import FastAPI, Request, HTTPException, Depends
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse, RedirectResponse
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, StrictInt, field_validator
 from starlette.middleware.sessions import SessionMiddleware
 
@@ -32,7 +31,21 @@ app = FastAPI(title='Teste para Casais', docs_url=None, redoc_url=None, openapi_
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
                    session_cookie='casais_session', max_age=604800,
                    same_site='lax', https_only=IS_PRODUCTION)
-app.mount('/assets', StaticFiles(directory=ROOT / 'static' / 'assets'), name='assets')
+# Os arquivos de mídia são versionados na raiz do projeto.
+# Exponha somente os arquivos públicos, nunca a raiz inteira.
+PUBLIC_ASSETS = {
+    'casal-carinho.webp', 'casal-conversa.webp', 'familia-penha.png',
+    'icon-192.png', 'icon-512.png', 'icon.svg',
+}
+
+@app.get('/assets/{filename}')
+def public_asset(filename: str):
+    if filename not in PUBLIC_ASSETS:
+        raise HTTPException(404, 'Arquivo não encontrado.')
+    path = ROOT / filename
+    if not path.is_file():
+        raise HTTPException(404, 'Arquivo não encontrado.')
+    return FileResponse(path)
 
 @contextmanager
 def database():
@@ -389,3 +402,4 @@ def export(q: str='', user=Depends(admin_user)):
 @app.get('/health')
 def health():
     return {'status':'ok'}
+
