@@ -2,7 +2,7 @@
 
 1. Pelo Chrome do tablet, entre em https://replit.com/import e faça login ou crie conta.
 2. Escolha a opção **ZIP** e selecione este arquivo ZIP salvo em Downloads.
-3. Quando o projeto abrir, verifique se a pasta principal mostra main.py, requirements.txt, .replit e static/.
+3. Quando o projeto abrir, verifique se a pasta principal mostra main.py, requirements.txt, .replit e index.html.
 4. Clique em **Run/Executar**. O arquivo .replit já contém o comando de instalação e execução.
 5. Abra a aba **Preview/Prévia** para acessar a tela inicial do WebApp.
 6. Para testar administração, abra a ferramenta Shell do Replit e execute

@@ -22,7 +22,7 @@ Esta edição é um **WebApp instalável em Android e iPhone (PWA) COM SERVIDOR*
 - O aplicativo não importa automaticamente resultados/cadastros dos antigos arquivos `localStorage`. A nova versão exige cadastro online.
 - O banco começa vazio. Não existem usuários nem administradores pré-cadastrados.
 - Número de celular é **login**, não autenticação por SMS/WhatsApp. A posse do celular não é verificada nesta edição.
-- Senhas esquecidas ainda não têm processo de redefinição por SMS/e-mail; é necessário planejar esse fluxo antes de abrir a aplicação ao público.
+- Senhas esquecidas podem ser redefinidas por e-mail ("Esqueci minha senha"), desde que a pessoa tenha um e-mail confirmado no perfil. O envio só funciona depois de configurar o provedor de e-mail — veja CONFIGURAR_EMAIL.md. Não há redefinição por SMS/WhatsApp.
 
 ## Executar para testes no computador
 
@@ -69,14 +69,15 @@ O projeto inclui `Dockerfile` e `render.yaml` como ponto de partida para provedo
 
 ### Segurança e privacidade
 
-Esta é uma base funcional, não uma auditoria completa de segurança. Para produção pública: configure backup, monitoramento, recuperação de senhas, política de retenção e privacidade adequada à LGPD; confirme HTTPS e os requisitos do provedor. Dados sobre a intimidade do casal são particularmente delicados.
+Esta é uma base funcional, não uma auditoria completa de segurança. Para produção pública: configure backup, monitoramento, o envio de e-mail para recuperação de senhas (CONFIGURAR_EMAIL.md), política de retenção e privacidade adequada à LGPD; confirme HTTPS e os requisitos do provedor. Dados sobre a intimidade do casal são particularmente delicados.
 
 Salvaguardas já presentes: senha com hash/salt; sessões assinadas e cookie HttpOnly, SameSite e Secure em produção; checagem CSRF; bloqueio simples de tentativas de login; isolamento das respostas por usuário; validações no servidor; administração baseada em papel; exclusão dos dados da conta.
 
 ## Testes automatizados
 
 ```bash
-python -m pytest -q tests/test_app.py
+pip install pytest httpx
+python -m pytest -q test_app.py test_email_recovery.py
 ```
 
-Testam acesso negado sem autenticação, cadastro/login, respostas salvas, continuidade, isolamento entre contas, proteção de painel, exportação e exclusão.
+Testam acesso negado sem autenticação, cadastro/login, respostas salvas, continuidade, isolamento entre contas, proteção de painel, exportação, exclusão, confirmação de e-mail e recuperação de senha (o envio de e-mail é simulado; nenhuma mensagem real é enviada).
