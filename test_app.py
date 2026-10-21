@@ -2,11 +2,21 @@ import os
 import tempfile
 from pathlib import Path
 import sys
+from unittest.mock import MagicMock
+import pytest
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 import main
 from fastapi.testclient import TestClient
+
+@pytest.fixture(autouse=True)
+def mock_email_delivery(monkeypatch):
+    for key, value in {'SMTP_HOST': 'smtp.example.com', 'SMTP_USER': 'sender@example.com',
+                       'SMTP_PASSWORD': 'test-only', 'SMTP_FROM': 'sender@example.com',
+                       'PUBLIC_BASE_URL': 'https://testes-para-casais.onrender.com'}.items():
+        monkeypatch.setenv(key, value)
+    monkeypatch.setattr(main.smtplib, 'SMTP', MagicMock())
 
 
 def prepare():
@@ -19,7 +29,7 @@ def prepare():
 def register(client,phone='11987654321',gender='M',name='Teste Pessoa'):
     csrf=client.get('/api/session').json()['csrf']
     response=client.post('/api/register',json={'name':name,'phone':phone,'gender':gender,
-             'password':'Seguro1234!', 'consent':True},headers={'X-CSRF-Token':csrf})
+             'password':'Seguro1234!', 'email':phone+'@example.com', 'consent':True},headers={'X-CSRF-Token':csrf})
     return response
 
 
