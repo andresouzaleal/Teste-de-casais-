@@ -32,7 +32,7 @@ app = FastAPI(title='Teste para Casais', docs_url=None, redoc_url=None, openapi_
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
                    session_cookie='casais_session', max_age=604800,
                    same_site='lax', https_only=IS_PRODUCTION)
-app.mount('/assets', StaticFiles(directory=STATIC / 'assets'), name='assets')
+app.mount('/assets', StaticFiles(directory=ROOT / 'static' / 'assets'), name='assets')
 
 @contextmanager
 def database():
