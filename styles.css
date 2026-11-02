@@ -90,3 +90,8 @@ html{scroll-padding-top:112px}body{background:#faf7f4}.site-header{position:stic
 /* Recuperação por e-mail e contato do administrador. */
 .footer-creator{display:flex;flex-direction:column;gap:5px;text-align:right}.footer-creator a{color:var(--plum);font-weight:700;text-decoration:underline;text-underline-offset:3px}.recovery-feedback{font-size:13px;color:var(--green);line-height:1.6}.footer-creator a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 @media(max-width:700px){.footer-creator{text-align:left;margin-top:12px}}
+/* Marca Curso de Casais Aliança */
+.site-header .brand-symbol{background:#fbf6ef;border-color:#e9dccb;color:inherit}.brand-symbol svg{width:44px;height:44px}
+.brand-alianca strong{font-style:normal;font-weight:500;letter-spacing:.05em;font-size:clamp(28px,2.9vw,38px);color:#432e49}.brand-alianca .brand-top{color:#967165;letter-spacing:.3em}.brand-alianca small{color:#98765f;letter-spacing:.16em}
+@media(max-width:700px){.brand-symbol svg{width:36px;height:36px}.brand-alianca strong{font-size:25px}}
+@media(max-width:385px){.brand-symbol svg{width:31px;height:31px}.brand-alianca strong{font-size:22px}}

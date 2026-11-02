@@ -39,6 +39,7 @@ app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
 PUBLIC_ASSETS = {
     'casal-carinho.webp', 'casal-conversa.webp', 'familia-penha.png',
     'icon-192.png', 'icon-512.png', 'icon.svg',
+    'logo-alianca.svg', 'logo-alianca.png', 'emblema-alianca.svg',
 }
 
 @app.get('/assets/{filename}')
