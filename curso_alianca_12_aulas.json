@@ -1,0 +1,4264 @@
+{
+  "name": "CURSO DE CASAIS ALIANÇA",
+  "subtitle": "Aliança — Um Curso para Casais Reais",
+  "duration": "12 semanas",
+  "motto": "Amor que Não Desiste",
+  "blocks": [
+    "Fundamentos",
+    "Desafios e Crescimento",
+    "Legado e Futuro"
+  ],
+  "source": "APOSTILA ALIANÇA 05.2026 — REVISADA.docx",
+  "presentation": [
+    {
+      "kind": "text",
+      "text": "\"O que Deus uniu, não separe o homem.\" — Mateus 19:6"
+    },
+    {
+      "kind": "text",
+      "text": "Apresentação do Curso"
+    },
+    {
+      "kind": "text",
+      "text": "Como usar esta apostila"
+    },
+    {
+      "kind": "text",
+      "text": "Bem-vindo ao curso Aliança! Esta apostila foi cuidadosamente elaborada para guiar casais cristãos em uma jornada de 12 semanas de crescimento, aprofundamento e fortalecimento matrimonial. Ao longo desse percurso, você e seu cônjuge serão desafiados, encorajados e equipados com ferramentas práticas e bíblicas para construir — ou restaurar — um casamento sólido e cheio de propósito."
+    },
+    {
+      "kind": "text",
+      "text": "O curso está estruturado em três blocos temáticos:"
+    },
+    {
+      "kind": "text",
+      "text": "BLOCO 1 — Fundamentos (Lições 1 a 4): A aliança, a identidade do casal, a espiritualidade e a comunicação.",
+      "spans": [
+        {
+          "text": "BLOCO 1 — Fundamentos (Lições 1 a 4): ",
+          "bold": true
+        },
+        {
+          "text": "A aliança, a identidade do casal, a espiritualidade e a comunicação.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "BLOCO 2 — Desafios e Crescimento (Lições 5 a 8): Conflitos, perdão, finanças e sexualidade.",
+      "spans": [
+        {
+          "text": "BLOCO 2 — Desafios e Crescimento (Lições 5 a 8): ",
+          "bold": true
+        },
+        {
+          "text": "Conflitos, perdão, finanças e sexualidade.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "BLOCO 3 — Legado e Futuro (Lições 9 a 12): Família, batalha espiritual, propósito e renovação do compromisso.",
+      "spans": [
+        {
+          "text": "BLOCO 3 — Legado e Futuro (Lições 9 a 12): ",
+          "bold": true
+        },
+        {
+          "text": "Família, batalha espiritual, propósito e renovação do compromisso.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Para Quem é Este Curso?"
+    },
+    {
+      "kind": "text",
+      "text": "Este curso foi pensado para qualquer casal que deseje crescer em seu casamento. Seja qual for a sua situação, vocês são bem-vindos aqui:"
+    },
+    {
+      "kind": "bullet",
+      "text": "Casais recém-casados: que querem construir uma base sólida desde o início.",
+      "spans": [
+        {
+          "text": "Casais recém-casados: que querem",
+          "bold": true
+        },
+        {
+          "text": " construir uma base sólida desde o início.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Casais sem filhos: as lições de família e propósito se aplicam igualmente — adaptem as perguntas à sua realidade.",
+      "spans": [
+        {
+          "text": "Casais sem filhos: as lições",
+          "bold": true
+        },
+        {
+          "text": " de família e propósito se aplicam igualmente — adaptem as perguntas à sua realidade.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Casais em crise: algumas lições serão difíceis. Isso é normal. Se necessário, façam o curso acompanhados de um pastor ou conselheiro.",
+      "spans": [
+        {
+          "text": "Casais em crise: algumas lições",
+          "bold": true
+        },
+        {
+          "text": " serão difíceis. Isso é normal. Se necessário, façam o curso acompanhados de um pastor ou conselheiro.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Casais com grande diferença de maturidade espiritual: o cônjuge menos envolvido não precisa ter todas as respostas — apenas disposição para participar com abertura.",
+      "spans": [
+        {
+          "text": "Casais com grande diferença de maturidade espiritual: o cônjuge",
+          "bold": true
+        },
+        {
+          "text": " menos envolvido não precisa ter todas as respostas — apenas disposição para participar com abertura.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "Uma sugestão importante: se durante o curso surgirem temas que envolvam abuso, trauma severo ou dependência química, não tentem resolver sozinhos. Procurem apoio pastoral ou profissional especializado. Este curso é um instrumento de crescimento — não substitui aconselhamento."
+    },
+    {
+      "kind": "heading",
+      "text": "Como Aproveitar Melhor o Curso"
+    },
+    {
+      "kind": "bullet",
+      "text": "Regularidade: Encontrem-se semanalmente, num dia e hora fixos. A consistência é fundamental.",
+      "spans": [
+        {
+          "text": "Regularidade: ",
+          "bold": true
+        },
+        {
+          "text": "Encontrem-se semanalmente, num dia e hora fixos. A consistência é fundamental.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Ambiente seguro: Criem um espaço sem julgamentos, onde ambos possam falar com honestidade.",
+      "spans": [
+        {
+          "text": "Ambiente seguro: ",
+          "bold": true
+        },
+        {
+          "text": "Criem um espaço sem julgamentos, onde ambos possam falar com honestidade.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Atividades práticas: Realizem todos os exercícios propostos — são a parte mais transformadora do curso.",
+      "spans": [
+        {
+          "text": "Atividades práticas: ",
+          "bold": true
+        },
+        {
+          "text": "Realizem todos os exercícios propostos — são a parte mais transformadora do curso.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Oração conjunta: Comecem e terminem cada encontro em oração. Deus é o fundamento de tudo.",
+      "spans": [
+        {
+          "text": "Oração conjunta: ",
+          "bold": true
+        },
+        {
+          "text": "Comecem e terminem cada encontro em oração. Deus é o fundamento de tudo.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "quote",
+      "text": "\"Sejam completamente humildes e dóceis, e sejam pacientes, suportando uns aos outros com amor.\" — Efésios 4:2"
+    }
+  ],
+  "lessons": [
+    {
+      "number": 1,
+      "week": 1,
+      "title": "A Aliança Matrimonial",
+      "subtitle": "O compromisso que transforma tudo",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "O casamento cristão não começa com um sentimento — começa com uma aliança. Uma aliança não é um contrato que pode ser revisto quando as condições mudam; é um compromisso incondicional diante de Deus, da família e da comunidade. Compreender a natureza dessa aliança é o primeiro passo para construir um matrimônio inabalável."
+        },
+        {
+          "kind": "text",
+          "text": "Na cultura bíblica, as alianças eram seladas com sangue — o que demonstrava sua seriedade e permanência. Jesus Cristo selou a nova aliança com seu próprio sangue, e o casamento é uma imagem viva desse amor sacrificial. Quando você disse \"sim\" diante do altar, você entrou em algo eterno."
+        },
+        {
+          "kind": "heading",
+          "text": "A Aliança — Fundamentos Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne.\" — Gênesis 2:24"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O que Deus uniu, não separe o homem.\" — Mateus 19:6"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Encontrou esposa, achou algo excelente, e recebeu uma bênção do Senhor.\" — Provérbios 18:22"
+        },
+        {
+          "kind": "text",
+          "text": "Deixar significa prioridade — a união conjugal passa a ser a relação humana mais importante. Unir-se indica intimidade — uma escolha diária de se aproximar. Uma só carne é integração total: espiritual, emocional, social e física."
+        },
+        {
+          "kind": "heading",
+          "text": "O Que Faz um Casamento Funcionar?"
+        },
+        {
+          "kind": "text",
+          "text": "Essa é uma das perguntas mais importantes que um casal pode fazer. A Bíblia, escrita ao longo de séculos e culturas, oferece respostas surpreendentemente coerentes e profundas. Não são regras externas impostas — são princípios que revelam como Deus desenhou o casamento para florescer."
+        },
+        {
+          "kind": "subheading",
+          "text": "1. Amor que é escolha, não apenas sentimento"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Maridos, amem suas mulheres, assim como Cristo amou a igreja e entregou-se por ela.\" — Efésios 5:25"
+        },
+        {
+          "kind": "text",
+          "text": "O amor bíblico — agape — é um ato de vontade antes de ser uma emoção. Cristo não amou a Igreja porque ela era perfeita; amou-a apesar de suas falhas. Um casamento que funciona é sustentado por dois cônjuges que escolhem amar mesmo quando não sentem vontade."
+        },
+        {
+          "kind": "subheading",
+          "text": "2. Respeito e honra mútuos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Sede todos de um mesmo sentimento, compassivos, amando os irmãos, misericordiosos, humildes. Não pagueis mal por mal...\" — 1 Pedro 3:8-9"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O marido deve dar à mulher o amor que lhe é devido, e da mesma forma a mulher ao marido.\" — 1 Coríntios 7:3"
+        },
+        {
+          "kind": "text",
+          "text": "Casamentos funcionam quando ambos os cônjuges se tratam com dignidade — mesmo nos momentos de desacordo. Respeito não é concordância: é honrar a pessoa, ainda que discordando da atitude."
+        },
+        {
+          "kind": "subheading",
+          "text": "3. Comprometimento incondicional"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Odeio o divórcio, diz o Senhor, Deus de Israel... Portanto, guardai o vosso espírito e não sejais infiéis.\" — Malaquias 2:16"
+        },
+        {
+          "kind": "text",
+          "text": "O comprometimento transforma o casamento em porto seguro. Quando ambos sabem que o outro não vai embora na primeira tempestade, é possível se arriscar, crescer e ser vulnerável. A segurança da aliança liberta o amor."
+        },
+        {
+          "kind": "subheading",
+          "text": "4. Perdão como prática contínua"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.\" — Colossenses 3:14"
+        },
+        {
+          "kind": "text",
+          "text": "Nenhum casal é perfeito. O que distingue casamentos duradouros não é a ausência de erros — é a disposição de perdoar e recomeçar. O perdão não é ingenuidade; é sabedoria e graça em ação."
+        },
+        {
+          "kind": "subheading",
+          "text": "5. Comunicação aberta e honesta"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Portanto, deixando a mentira, cada um fale a verdade com o seu próximo, porque somos membros uns dos outros.\" — Efésios 4:25"
+        },
+        {
+          "kind": "text",
+          "text": "Casamentos que funcionam têm dois cônjuges que falam com honestidade e ouvem com paciência. A intimidade cresce onde há segurança para ser verdadeiro — mesmo quando a verdade é difícil."
+        },
+        {
+          "kind": "subheading",
+          "text": "6. Deus no centro da união"
+        },
+        {
+          "kind": "quote",
+          "text": "\"A não ser que o Senhor edifique a casa, em vão trabalham os que a edificam.\" — Salmos 127:1"
+        },
+        {
+          "kind": "text",
+          "text": "A pesquisa e a experiência pastoral convergem: casais que buscam a Deus juntos — oração, Palavra, comunidade de fé — têm relacionamentos mais resilientes, mais satisfatórios e mais duradouros. Deus não é um complemento do casamento; é sua fundação."
+        },
+        {
+          "kind": "subheading",
+          "text": "7. Intencionalidade e investimento contínuo"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Tudo o que a sua mão encontrar para fazer, faça-o com todo o seu poder.\" — Eclesiastes 9:10"
+        },
+        {
+          "kind": "text",
+          "text": "Um casamento saudável não acontece por acaso — é resultado de escolhas diárias. Casais que funcionam são aqueles que continuam investindo: tempo de qualidade, conversas profundas, demonstrações de afeto, crescimento conjunto."
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois compartilhem com abertura e honestidade:"
+        },
+        {
+          "kind": "text",
+          "text": "1. O que a aliança que você fez no dia do casamento significa para você hoje? Ela mudou de significado com o tempo?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Dos 7 princípios apresentados, qual você considera o mais forte em seu casamento? Por quê?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Qual desses princípios você sente que precisa ser mais cultivado entre vocês dois?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Em que áreas você sente que precisa honrar mais profundamente o compromisso da aliança?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Você acredita que Deus está genuinamente no centro do casamento de vocês? O que isso parece na prática do dia a dia?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Qual promessa você quer renovar com seu cônjuge agora, neste momento?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Releiam juntos os votos que fizeram no casamento. Se não os tiverem escritos, escrevam-nos agora — com as palavras de hoje.",
+            "Escolham juntos um dos sete princípios de \"O Que Faz um Casamento Funcionar?\" e discutam como ele aparece (ou pode aparecer mais) na vida de vocês.",
+            "Encontrem uma foto do casamento e a coloquem em um lugar visível na casa como lembrete diário da aliança.",
+            "Orem juntos agradecendo a Deus pelo presente do casamento e pedindo que Ele seja o centro de tudo."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "week": 2,
+      "title": "Identidade e Papéis no Casamento",
+      "subtitle": "Quem somos e como nos completamos",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Muito conflito conjugal nasce de expectativas não ditas sobre papéis. O que significa ser marido? O que significa ser esposa? A Bíblia oferece um modelo rico — não para aprisionar, mas para libertar cada um a ser o melhor de si dentro da aliança."
+        },
+        {
+          "kind": "text",
+          "text": "É importante distinguir dois conceitos que frequentemente se confundem: hierarquia de valor e hierarquia de função. No casamento cristão, não existe hierarquia de valor — marido e esposa têm igual dignidade diante de Deus (Gálatas 3:28). O que existe é uma diferença de função — papéis complementares que, quando exercidos com amor e humildade, criam harmonia em vez de conflito."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Não há judeu nem grego, escravo nem livre, homem nem mulher, pois todos vocês são um em Cristo Jesus.\" — Gálatas 3:28"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Sujeitem-se uns aos outros por temor a Cristo.\" — Efésios 5:21"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Cada um de vocês, individualmente, também deve amar a sua mulher como a si mesmo, e a mulher deve respeitar o marido.\" — Efésios 5:33"
+        },
+        {
+          "kind": "text",
+          "text": "O chamado do marido: amar com sacrifício como Cristo amou a Igreja — não um amor que exige, mas um amor que se entrega. Liderar com serviço, honrar a esposa como vasilha mais frágil (1 Pedro 3:7), proteger e prover emocionalmente."
+        },
+        {
+          "kind": "text",
+          "text": "O chamado da esposa: ser a força auxiliadora — ezer em hebraico, palavra usada para descrever o próprio Deus em Salmos 121:2. Não é fraqueza — é parceria estratégica. Respeitar, apoiar, trazer sabedoria e complementar onde o marido tem limitações."
+        },
+        {
+          "kind": "text",
+          "text": "Ambos são chamados a servir, a perdoar, a se comunicar e a crescer. Os papéis específicos não substituem as responsabilidades compartilhadas — elas coexistem."
+        },
+        {
+          "kind": "heading",
+          "text": "A Tensão Real que os Casais Sentem"
+        },
+        {
+          "kind": "text",
+          "text": "Muitos casais cristãos hoje sentem desconforto com o tema de papéis — e isso é compreensível. A palavra submissão foi historicamente usada para justificar abuso e silenciar mulheres, o que nada tem a ver com o modelo bíblico. A submissão de Efésios 5 é mútua (v.21), voluntária e ancorada no amor sacrificial do marido. Não é obediência cega — é confiança cultivada."
+        },
+        {
+          "kind": "text",
+          "text": "A questão não é quem manda, mas como cada um serve. Quando ambos se perguntam \"Como posso dar o melhor de mim para o outro?\" em vez de \"Qual é o meu direito aqui?\", os papéis deixam de ser um campo de batalha e se tornam um dom."
+        },
+        {
+          "kind": "heading",
+          "text": "Áreas de Complementaridade"
+        },
+        {
+          "kind": "bullet",
+          "text": "Decisões: Há clareza sobre como vocês tomam decisões juntos? Quem lidera em quais áreas?",
+          "spans": [
+            {
+              "text": "Decisões: ",
+              "bold": true
+            },
+            {
+              "text": "Há clareza sobre como vocês tomam decisões juntos? Quem lidera em quais áreas?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Administração do lar: As tarefas domésticas estão distribuídas de forma justa e combinada — não assumida silenciosamente?",
+          "spans": [
+            {
+              "text": "Administração do lar: ",
+              "bold": true
+            },
+            {
+              "text": "As tarefas domésticas estão distribuídas de forma justa e combinada — não assumida silenciosamente?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Filhos e família: Vocês têm uma visão compartilhada sobre criação e disciplina dos filhos?",
+          "spans": [
+            {
+              "text": "Filhos e família: ",
+              "bold": true
+            },
+            {
+              "text": "Vocês têm uma visão compartilhada sobre criação e disciplina dos filhos?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Trabalho e carreira: As ambições individuais estão em equilíbrio com o bem do casal? Há ressentimento não dito aqui?",
+          "spans": [
+            {
+              "text": "Trabalho e carreira: ",
+              "bold": true
+            },
+            {
+              "text": "As ambições individuais estão em equilíbrio com o bem do casal? Há ressentimento não dito aqui?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Liderança espiritual: Quem está liderando a vida espiritual do lar? Isso é satisfatório para ambos?",
+          "spans": [
+            {
+              "text": "Liderança espiritual: ",
+              "bold": true
+            },
+            {
+              "text": "Quem está liderando a vida espiritual do lar? Isso é satisfatório para ambos?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Mapa de Expectativas"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente nas linhas abaixo, sem ver a resposta do cônjuge. Depois comparem. O objetivo não é ter as mesmas respostas — é descobrir onde as expectativas divergem e conversar sobre isso com graça."
+        },
+        {
+          "kind": "text",
+          "text": "Em nosso casamento, eu espero que o marido seja responsável por:"
+        },
+        {
+          "kind": "text",
+          "text": "Em nosso casamento, eu espero que a esposa seja responsável por:"
+        },
+        {
+          "kind": "text",
+          "text": "Uma expectativa que eu nunca comuniquei claramente ao meu cônjuge é:"
+        },
+        {
+          "kind": "text",
+          "text": "Uma área em que me sinto sobrecarregado(a) e não tenho pedido ajuda:"
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Após compararem o Mapa de Expectativas, conversem com abertura:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Quais são os seus três maiores pontos fortes no casamento? E os três do seu cônjuge?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Em que área você sente que as expectativas de papéis têm gerado mais atrito ou ressentimento silencioso?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Há algo que você faz no casamento que sente que não é valorizado ou reconhecido pelo cônjuge?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Como você se sente com o tema de liderança e submissão no casamento? Há resistência, confusão ou paz?"
+        },
+        {
+          "kind": "text",
+          "text": "5. O que você poderia fazer diferente esta semana para servir melhor ao seu cônjuge no papel que você exerce?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Cada um escreva 5 pontos fortes do cônjuge — específicos, não genéricos — e compartilhe pessoalmente, olhando nos olhos.",
+            "Conversem sobre o Mapa de Expectativas: onde as respostas de vocês coincidiram? Onde divergiram? O que isso revela?",
+            "Identifiquem uma responsabilidade doméstica ou familiar que o cônjuge carrega e que você raramente reconhece. Expresse gratidão explícita e concreta por ela.",
+            "Orem pedindo a Deus sabedoria para exercerem seus papéis com amor, humildade e alegria — e graça para redefinir expectativas onde necessário."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "week": 3,
+      "title": "A Vida Espiritual do Casal",
+      "subtitle": "Orando, crescendo — e identificando o que nos afasta",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Um dos maiores presentes que você pode dar ao seu casamento é uma vida espiritual ativa. Casais que oram juntos, estudam a Palavra juntos e buscam a Deus em comunidade constroem uma fundação que resiste às tempestades da vida. Isso não é romantismo — pesquisas mostram que casais com prática espiritual conjunta têm índices muito menores de divórcio."
+        },
+        {
+          "kind": "text",
+          "text": "Mas vida espiritual conjunta não nasce automaticamente. Ela precisa ser cultivada com intencionalidade, especialmente quando os dois parceiros têm ritmos, dons e temperamentos diferentes em sua relação com Deus. E além de cultivar o que edifica, é igualmente necessário identificar — com coragem — os comportamentos que corroem o relacionamento por dentro."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"A corda de três dobras não se rompe com facilidade.\" — Eclesiastes 4:12"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Vivam em sabedoria... como herdeiros conjuntos da graça da vida, para que as suas orações não sejam prejudicadas.\" — 1 Pedro 3:7"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Examinai-vos a vós mesmos, para ver se estais na fé; provai-vos a vós mesmos.\" — 2 Coríntios 13:5"
+        },
+        {
+          "kind": "heading",
+          "text": "Pilares da Espiritualidade Conjugal"
+        },
+        {
+          "kind": "bullet",
+          "text": "Oração conjunta: Orar juntos é um ato de vulnerabilidade e intimidade. Comecem com 5 minutos por dia — a consistência transforma.",
+          "spans": [
+            {
+              "text": "Oração conjunta: ",
+              "bold": true
+            },
+            {
+              "text": "Orar juntos é um ato de vulnerabilidade e intimidade. Comecem com 5 minutos por dia — a consistência transforma.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Estudo da Palavra: Leiam e discutam a Bíblia juntos, mesmo que brevemente. Um devocional de casal ajuda a criar o hábito.",
+          "spans": [
+            {
+              "text": "Estudo da Palavra: ",
+              "bold": true
+            },
+            {
+              "text": "Leiam e discutam a Bíblia juntos, mesmo que brevemente. Um devocional de casal ajuda a criar o hábito.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Comunidade de fé: Pertencer a uma igreja local e a um grupo de casais fortalece e protege o casamento.",
+          "spans": [
+            {
+              "text": "Comunidade de fé: ",
+              "bold": true
+            },
+            {
+              "text": "Pertencer a uma igreja local e a um grupo de casais fortalece e protege o casamento.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Serviço conjunto: Servir juntos — na igreja, na vizinhança — une propósitos e cria experiências profundamente significativas.",
+          "spans": [
+            {
+              "text": "Serviço conjunto: ",
+              "bold": true
+            },
+            {
+              "text": "Servir juntos — na igreja, na vizinhança — une propósitos e cria experiências profundamente significativas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Gratidão e adoração: Cultivar gratidão a Deus pelo cônjuge muda a perspectiva sobre o casamento inteiro.",
+          "spans": [
+            {
+              "text": "Gratidão e adoração: ",
+              "bold": true
+            },
+            {
+              "text": "Cultivar gratidão a Deus pelo cônjuge muda a perspectiva sobre o casamento inteiro.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Comportamentos Tóxicos no Casamento — e seus Antídotos"
+        },
+        {
+          "kind": "text",
+          "text": "Um casamento espiritualmente saudável exige mais do que práticas devocionais — exige também autoconhecimento honesto sobre os padrões que prejudicam a relação. A seguir estão quatro comportamentos tóxicos frequentes nos casamentos, com seus respectivos antídotos bíblicos e práticos."
+        },
+        {
+          "kind": "text",
+          "text": "Leia cada comportamento com humildade e abertura. Não para julgar o cônjuge — mas para reconhecer o que pode estar presente em você."
+        },
+        {
+          "kind": "subheading",
+          "text": "Comportamento Tóxico 1: Crítica Destrutiva"
+        },
+        {
+          "kind": "text",
+          "text": "A crítica destrutiva vai além de apontar um comportamento: ela ataca a identidade, o caráter ou o valor da pessoa. Frases que generalizam e rotulam não comunicam uma necessidade — elas ferem e envergonham."
+        },
+        {
+          "kind": "text",
+          "text": "Como se manifesta: Uso excessivo de \"sempre\" e \"nunca\" (\"você nunca me ouve\", \"você sempre faz isso\"), julgamentos de caráter, sarcasmo disfarçado de honestidade, rotular o cônjuge em vez de descrever o comportamento.",
+          "spans": [
+            {
+              "text": "Como se manifesta: ",
+              "bold": true
+            },
+            {
+              "text": "Uso excessivo de \"sempre\" e \"nunca\" (\"você nunca me ouve\", \"você sempre faz isso\"), julgamentos de caráter, sarcasmo disfarçado de honestidade, rotular o cônjuge em vez de descrever o comportamento.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Raiz comum: Frustração acumulada, expectativas não comunicadas, falta de segurança emocional para expressar necessidades de forma direta.",
+          "spans": [
+            {
+              "text": "Raiz comum: ",
+              "bold": true
+            },
+            {
+              "text": "Frustração acumulada, expectativas não comunicadas, falta de segurança emocional para expressar necessidades de forma direta.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Versículo: Nenhuma palavra torpe saia da sua boca, mas só a que for boa para edificar conforme a necessidade, e seja uma graça para os ouvintes. — Efésios 4:29",
+          "spans": [
+            {
+              "text": "Versículo: ",
+              "bold": true
+            },
+            {
+              "text": "Nenhuma palavra torpe saia da sua boca, mas só a que for boa para edificar conforme a necessidade, e seja uma graça para os ouvintes. — Efésios 4:29",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto — Reclamação com linguagem do Eu: Em vez de atacar a pessoa, descreva o comportamento e expresse o sentimento. Troque \"você é egoísta\" por \"eu me sinto deixado de lado quando não sou consultado nessa decisão; podemos conversar sobre isso?\" Isso abre diálogo em vez de fechar portas.",
+          "spans": [
+            {
+              "text": "Antídoto — Reclamação com linguagem do Eu: ",
+              "bold": true
+            },
+            {
+              "text": "Em vez de atacar a pessoa, descreva o comportamento e expresse o sentimento. Troque \"você é egoísta\" por \"eu me sinto deixado de lado quando não sou consultado nessa decisão; podemos conversar sobre isso?\" Isso abre diálogo em vez de fechar portas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "Comportamento Tóxico 2: Defensividade"
+        },
+        {
+          "kind": "text",
+          "text": "A defensividade é a recusa em receber qualquer grau de responsabilidade. Ela surge como um escudo natural — mas na prática bloqueia o diálogo, invalida o sentimento do cônjuge e impede qualquer resolução genuína do conflito."
+        },
+        {
+          "kind": "text",
+          "text": "Como se manifesta: Contra-ataques imediatos (e você também!), justificativas excessivas para tudo, postura de vítima constante, incapacidade de dizer \"eu errei\" ou \"você tem razão\" sem acrescentar um \"mas\".",
+          "spans": [
+            {
+              "text": "Como se manifesta: ",
+              "bold": true
+            },
+            {
+              "text": "Contra-ataques imediatos (e você também!), justificativas excessivas para tudo, postura de vítima constante, incapacidade de dizer \"eu errei\" ou \"você tem razão\" sem acrescentar um \"mas\".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Raiz comum: Medo de ser visto como inadequado ou fracassado, vergonha não resolvida, histórico de críticas severas na infância ou em relacionamentos anteriores.",
+          "spans": [
+            {
+              "text": "Raiz comum: ",
+              "bold": true
+            },
+            {
+              "text": "Medo de ser visto como inadequado ou fracassado, vergonha não resolvida, histórico de críticas severas na infância ou em relacionamentos anteriores.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Versículo: Antes da queda vem o orgulho; antes da honra vem a humildade. — Provérbios 18:12",
+          "spans": [
+            {
+              "text": "Versículo: ",
+              "bold": true
+            },
+            {
+              "text": "Antes da queda vem o orgulho; antes da honra vem a humildade. — Provérbios 18:12",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto — Escuta sem defesa e responsabilidade parcial: Pratique ouvir completamente antes de responder. Quando sentir o impulso de se defender, diga internamente: \"Deixe-me entender antes de me explicar.\" Assuma responsabilidade, mesmo que parcial: \"Você tem razão nisso; eu poderia ter agido de outra forma.\" A humildade sincera desarma o conflito.",
+          "spans": [
+            {
+              "text": "Antídoto — Escuta sem defesa e responsabilidade parcial: ",
+              "bold": true
+            },
+            {
+              "text": "Pratique ouvir completamente antes de responder. Quando sentir o impulso de se defender, diga internamente: \"Deixe-me entender antes de me explicar.\" Assuma responsabilidade, mesmo que parcial: \"Você tem razão nisso; eu poderia ter agido de outra forma.\" A humildade sincera desarma o conflito.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "Comportamento Tóxico 3: Evasão"
+        },
+        {
+          "kind": "text",
+          "text": "A evasão é o silêncio que pune. É o cônjuge que se fecha, sai da conversa emocionalmente ou fisicamente, responde com monossílabos ou age como se o outro não existisse. Diferente de uma pausa saudável e combinada, a evasão é abandono emocional — e o cônjuge que a recebe sente isso profundamente."
+        },
+        {
+          "kind": "text",
+          "text": "Como se manifesta: Silêncio prolongado após conflitos, sair do ambiente sem aviso ou explicação, respostas de uma sílaba, fingir que está tudo bem quando não está, refugiar-se no celular, na TV ou no trabalho excessivo para não ter de conversar.",
+          "spans": [
+            {
+              "text": "Como se manifesta: ",
+              "bold": true
+            },
+            {
+              "text": "Silêncio prolongado após conflitos, sair do ambiente sem aviso ou explicação, respostas de uma sílaba, fingir que está tudo bem quando não está, refugiar-se no celular, na TV ou no trabalho excessivo para não ter de conversar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Raiz comum: Sobrecarga emocional, medo do conflito, padrão aprendido na família de origem onde desentendimentos eram ignorados ou explodiam de forma descontrolada — e por isso aprendeu-se a fugir.",
+          "spans": [
+            {
+              "text": "Raiz comum: ",
+              "bold": true
+            },
+            {
+              "text": "Sobrecarga emocional, medo do conflito, padrão aprendido na família de origem onde desentendimentos eram ignorados ou explodiam de forma descontrolada — e por isso aprendeu-se a fugir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Versículo: Não se ponha o sol sobre a ira de vocês, e não deem lugar ao diabo. — Efésios 4:26-27",
+          "spans": [
+            {
+              "text": "Versículo: ",
+              "bold": true
+            },
+            {
+              "text": "Não se ponha o sol sobre a ira de vocês, e não deem lugar ao diabo. — Efésios 4:26-27",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto — Pausa combinada com compromisso de retorno: Aprenda a diferenciar pausa saudável de evasão punitiva. Quando sentir necessidade de se retirar, comunique com clareza: preciso de 20 minutos para me reorganizar — podemos retomar às 21h? E cumpra o combinado. Presença emocional, mesmo que difícil, é um ato concreto de amor e respeito.",
+          "spans": [
+            {
+              "text": "Antídoto — Pausa combinada com compromisso de retorno: ",
+              "bold": true
+            },
+            {
+              "text": "Aprenda a diferenciar pausa saudável de evasão punitiva. Quando sentir necessidade de se retirar, comunique com clareza: preciso de 20 minutos para me reorganizar — podemos retomar às 21h? E cumpra o combinado. Presença emocional, mesmo que difícil, é um ato concreto de amor e respeito.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "Comportamento Tóxico 4: Desprezo"
+        },
+        {
+          "kind": "text",
+          "text": "O desprezo é o mais corrosivo de todos. Ele vai além da crítica — comunica nojo, superioridade moral e desumanização do cônjuge. Pesquisas de John Gottman apontam o desprezo como o maior preditor isolado de divórcio, e também está associado a adoecimento físico de quem o recebe de forma sistemática."
+        },
+        {
+          "kind": "text",
+          "text": "Como se manifesta: Sarcasmo cruel, ironia que humilha, olhos revirados com impaciência, apelidos pejorativos, imitar o cônjuge de forma zombeteira, risos de escárnio, comentários que rebaixam a inteligência, a competência ou o valor do outro.",
+          "spans": [
+            {
+              "text": "Como se manifesta: ",
+              "bold": true
+            },
+            {
+              "text": "Sarcasmo cruel, ironia que humilha, olhos revirados com impaciência, apelidos pejorativos, imitar o cônjuge de forma zombeteira, risos de escárnio, comentários que rebaixam a inteligência, a competência ou o valor do outro.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Raiz comum: Ressentimentos acumulados e nunca resolvidos que, com o tempo, se transformam em desamor ativo. O desprezo não nasce do nada — é o resultado de críticas que nunca foram ouvidas, perdões que nunca foram pedidos e mágoas que foram sendo guardadas em silêncio.",
+          "spans": [
+            {
+              "text": "Raiz comum: ",
+              "bold": true
+            },
+            {
+              "text": "Ressentimentos acumulados e nunca resolvidos que, com o tempo, se transformam em desamor ativo. O desprezo não nasce do nada — é o resultado de críticas que nunca foram ouvidas, perdões que nunca foram pedidos e mágoas que foram sendo guardadas em silêncio.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Versículo: O amor é paciente, é bondoso. O amor não inveja, não se vangloria, não se orgulha. Não maltrata, não procura os seus próprios interesses, não se ira facilmente. — 1 Coríntios 13:4-5",
+          "spans": [
+            {
+              "text": "Versículo: ",
+              "bold": true
+            },
+            {
+              "text": "O amor é paciente, é bondoso. O amor não inveja, não se vangloria, não se orgulha. Não maltrata, não procura os seus próprios interesses, não se ira facilmente. — 1 Coríntios 13:4-5",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto — Cultura de admiração e resolução de ressentimentos: Construa ativamente uma cultura de gratidão e admiração no casamento. Todos os dias, encontre algo genuíno para apreciar no cônjuge e diga em voz alta. Ao mesmo tempo, resolva os ressentimentos acumulados por meio de conversas honestas e perdão ativo — antes que se tornem veneno. Onde há admiração genuína cultivada como hábito, o desprezo não consegue se instalar.",
+          "spans": [
+            {
+              "text": "Antídoto — Cultura de admiração e resolução de ressentimentos: ",
+              "bold": true
+            },
+            {
+              "text": "Construa ativamente uma cultura de gratidão e admiração no casamento. Todos os dias, encontre algo genuíno para apreciar no cônjuge e diga em voz alta. Ao mesmo tempo, resolva os ressentimentos acumulados por meio de conversas honestas e perdão ativo — antes que se tornem veneno. Onde há admiração genuína cultivada como hábito, o desprezo não consegue se instalar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Espelho da Honestidade"
+        },
+        {
+          "kind": "text",
+          "text": "Este exercício é individual primeiro — respondam por escrito antes de compartilhar com o cônjuge. O objetivo não é apontar o outro, mas olhar para si mesmo com coragem e graça."
+        },
+        {
+          "kind": "text",
+          "text": "Marque com honestidade os comportamentos que você reconhece em si mesmo(a):"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Crítica destrutiva [ ] Defensividade [ ] Evasão [ ] Desprezo"
+        },
+        {
+          "kind": "text",
+          "text": "Em que situações esses comportamentos costumam aparecer em você?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual antídoto você quer praticar primeiro? Em que situação concreta?"
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois compartilhem com abertura — sem usar as respostas do cônjuge como munição para novos conflitos:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Qual é o maior obstáculo para vocês orarem e crescerem espiritualmente juntos? O que poderia mudar isso?"
+        },
+        {
+          "kind": "text",
+          "text": "2. O que Deus tem falado a você individualmente nesta temporada de vida? Como isso afeta o casamento?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Que prática espiritual vocês gostariam de implementar juntos nos próximos 30 dias? Sejam específicos — dia, horário e formato."
+        },
+        {
+          "kind": "text",
+          "text": "4. Qual dos quatro comportamentos tóxicos você reconhece com mais frequência em si mesmo? Em que situações ele costuma emergir?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Qual é a raiz que alimenta esse comportamento em você — medo, vergonha, frustração, cansaço, histórico familiar?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Como você se sente emocionalmente quando recebe crítica ou desprezo do cônjuge? O que acontece dentro de você?"
+        },
+        {
+          "kind": "text",
+          "text": "7. Há ressentimentos acumulados entre vocês que ainda não foram resolvidos e que podem estar alimentando esses comportamentos?"
+        },
+        {
+          "kind": "text",
+          "text": "8. Qual antídoto você se compromete a aplicar esta semana? Em qual situação específica você vai praticá-lo?"
+        },
+        {
+          "kind": "text",
+          "text": "9. O que mudaria no clima emocional do casamento de vocês se ambos praticassem consistentemente seus antídotos?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Orem juntos todos os dias desta semana, mesmo que por apenas 3 minutos. Incluam na oração um pedido específico de ajuda para superar o comportamento tóxico que cada um identificou.",
+            "Leiam juntos um Salmo por dia e compartilhem o versículo que mais falou ao coração de cada um.",
+            "Toda vez que perceber em si mesmo um comportamento tóxico durante a semana, pare, respire e aplique o antídoto correspondente. Ao final do dia, partilhe com o cônjuge como foi — vitórias e tropeços.",
+            "Escrevam um bilhete de admiração genuína um para o outro — algo que você aprecia de verdade no cônjuge — e entreguem pessoalmente, olhando nos olhos.",
+            "Identifiquem uma área de serviço conjunto na igreja ou comunidade onde possam se envolver como casal."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "week": 4,
+      "title": "Comunicação no Casamento",
+      "subtitle": "A arte de falar, ouvir e conhecer o coração do outro",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Comunicação não é apenas falar — é criar pontes. No casamento, é o fio que tece dois mundos diferentes em um só tecido. A maioria dos problemas conjugais tem raiz em falhas de comunicação: palavras ditas com dureza, sentimentos não expressos, suposições nunca verificadas."
+        },
+        {
+          "kind": "text",
+          "text": "A boa notícia é que comunicação é uma habilidade — e habilidades podem ser aprendidas e aprofundadas. Nesta lição, além dos fundamentos da comunicação saudável, você e seu cônjuge serão convidados a construir o Mapa do Amor — um mapa vivo do mundo interior um do outro: seus sonhos, medos, desejos, memórias e esperanças."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Sejam todos prontos para ouvir, tardios para falar e tardios para se irar.\" — Tiago 1:19"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Nenhuma palavra torpe saia da sua boca, mas só a que for boa para edificar conforme a necessidade.\" — Efésios 4:29"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Conhece o coração do seu servo; porque tu, ó Senhor, conheces o coração de todos os filhos dos homens.\" — 1 Reis 8:39"
+        },
+        {
+          "kind": "heading",
+          "text": "Os 4 Pilares da Comunicação Saudável"
+        },
+        {
+          "kind": "bullet",
+          "text": "Escuta ativa: Ouvir sem interromper, sem planejar a resposta enquanto o outro fala. Perguntar: \"Entendi bem?\" Validar antes de refutar.",
+          "spans": [
+            {
+              "text": "Escuta ativa: ",
+              "bold": true
+            },
+            {
+              "text": "Ouvir sem interromper, sem planejar a resposta enquanto o outro fala. Perguntar: \"Entendi bem?\" Validar antes de refutar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Linguagem do Eu: \"Eu me sinto...\" em vez de \"Você sempre...\" Isso reduz a defensividade e abre espaço para o diálogo real.",
+          "spans": [
+            {
+              "text": "Linguagem do Eu: ",
+              "bold": true
+            },
+            {
+              "text": "\"Eu me sinto...\" em vez de \"Você sempre...\" Isso reduz a defensividade e abre espaço para o diálogo real.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Comunicação não verbal: Tom de voz, postura corporal e contato visual comunicam mais do que as palavras. O corpo fala o que a boca cala.",
+          "spans": [
+            {
+              "text": "Comunicação não verbal: ",
+              "bold": true
+            },
+            {
+              "text": "Tom de voz, postura corporal e contato visual comunicam mais do que as palavras. O corpo fala o que a boca cala.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Escolha o momento certo: Conversas importantes merecem ambiente adequado: sem pressa, sem cansaço extremo, sem distrações digitais.",
+          "spans": [
+            {
+              "text": "Escolha o momento certo: ",
+              "bold": true
+            },
+            {
+              "text": "Conversas importantes merecem ambiente adequado: sem pressa, sem cansaço extremo, sem distrações digitais.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 1: Escuta Ativa"
+        },
+        {
+          "kind": "text",
+          "text": "Pratiquem agora: um parceiro fala por 3 minutos sobre algo que está sentindo — pode ser qualquer coisa, não precisa ser sobre o casamento. O outro ouve em silêncio completo, sem interromper. Depois, o ouvinte resume o que entendeu e pergunta: é isso que você quis dizer? Só então trocam os papéis."
+        },
+        {
+          "kind": "text",
+          "text": "Ao terminar, cada um responda: o que foi mais difícil — falar ou ouvir? O que descobriu sobre si mesmo nesse exercício?"
+        },
+        {
+          "kind": "heading",
+          "text": "O Mapa do Amor — Conhecendo o Mundo Interior do Cônjuge"
+        },
+        {
+          "kind": "text",
+          "text": "O conceito de Mapa do Amor vem da pesquisa do Dr. John Gottman e descreve o quanto você conhece o mundo interior do seu cônjuge: seus sonhos, seus medos, suas memórias mais preciosas, o que o faz rir, o que o mantém acordado à noite, o que ele espera do futuro."
+        },
+        {
+          "kind": "text",
+          "text": "Gottman descobriu que casais com Mapas do Amor detalhados e atualizados são significativamente mais resilientes diante de crises — porque conhecer profundamente o outro cria intimidade real, não apenas convivência. O Mapa do Amor não é construído em um dia; é um mapa que se atualiza para a vida toda."
+        },
+        {
+          "kind": "quote",
+          "text": "\"Conhece o estado das tuas ovelhas, e presta atenção ao teu rebanho.\" — Provérbios 27:23"
+        },
+        {
+          "kind": "text",
+          "text": "Assim como um pastor conhece profundamente cada ovelha, o amor conjugal pede que conheçamos profundamente quem Deus nos confiou. Quanto você realmente conhece do mundo interior do seu cônjuge hoje?"
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 2: Construindo o Mapa do Amor"
+        },
+        {
+          "kind": "text",
+          "text": "Esta é a parte central da lição. Respondam individualmente — cada um no seu caderno ou nas linhas abaixo — e depois partilhem as respostas um com o outro. Ouçam com curiosidade genuína, sem julgamento. O objetivo é descobrir, não debater."
+        },
+        {
+          "kind": "text",
+          "text": "Regra de ouro do exercício: ao ouvir a resposta do cônjuge, sua única reação permitida é curiosidade. Pergunte mais. Nunca corrija, discorde ou minimize. Apenas receba."
+        },
+        {
+          "kind": "text",
+          "text": "A. Sua História e Memórias"
+        },
+        {
+          "kind": "text",
+          "text": "Qual memória da sua infância você guarda com mais carinho?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual foi o momento mais difícil que você já viveu — e de que forma essa experiência moldou você?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual pessoa (além de mim) teve a maior influência positiva na sua vida? Por quê?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual memória do nosso relacionamento você mais ama guardar?"
+        },
+        {
+          "kind": "text",
+          "text": "B. Seus Sonhos e Desejos"
+        },
+        {
+          "kind": "text",
+          "text": "Se você pudesse realizar um sonho nos próximos 5 anos, qual seria?"
+        },
+        {
+          "kind": "text",
+          "text": "Há algo que você sempre quis fazer ou aprender, mas ainda não teve oportunidade?"
+        },
+        {
+          "kind": "text",
+          "text": "Como seria o dia perfeito para você — da manhã à noite?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual lugar do mundo você mais quer conhecer — e o que imagina sentir ao chegar lá?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você sonha para o nosso casamento daqui a 10 anos?"
+        },
+        {
+          "kind": "text",
+          "text": "Se o dinheiro não fosse obstáculo, o que você faria da sua vida?"
+        },
+        {
+          "kind": "text",
+          "text": "C. Seus Medos e Vulnerabilidades"
+        },
+        {
+          "kind": "text",
+          "text": "Qual é o seu maior medo em relação ao futuro?"
+        },
+        {
+          "kind": "text",
+          "text": "O que faz você se sentir mais inseguro(a) no casamento?"
+        },
+        {
+          "kind": "text",
+          "text": "Existe algo que você teme que eu nunca entenda sobre você?"
+        },
+        {
+          "kind": "text",
+          "text": "O que faz você se sentir mais sozinho(a), mesmo quando estamos juntos?"
+        },
+        {
+          "kind": "text",
+          "text": "D. O Que Faz Você Se Sentir Amado(a)"
+        },
+        {
+          "kind": "text",
+          "text": "O que eu faço que mais faz você se sentir amado(a) e valorizado(a)?"
+        },
+        {
+          "kind": "text",
+          "text": "O que eu poderia fazer mais frequentemente que encheria seu coração?"
+        },
+        {
+          "kind": "text",
+          "text": "Como você prefere receber afeto — palavras, toque, presença, presentes, atos de serviço?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual foi a última vez que você se sentiu verdadeiramente visto(a) e compreendido(a) por mim?"
+        },
+        {
+          "kind": "text",
+          "text": "E. Seus Valores e Propósito"
+        },
+        {
+          "kind": "text",
+          "text": "O que você considera o propósito mais profundo da sua vida?"
+        },
+        {
+          "kind": "text",
+          "text": "Quais são os três valores que mais guiam suas decisões?"
+        },
+        {
+          "kind": "text",
+          "text": "Como você quer ser lembrado(a) pelos seus filhos e netos?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual legado você quer deixar no mundo — mesmo que pequeno?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você acredita que Deus está fazendo na sua vida nesta temporada?"
+        },
+        {
+          "kind": "text",
+          "text": "F. Nosso Casamento e Nosso Futuro"
+        },
+        {
+          "kind": "text",
+          "text": "O que você mais deseja que mude ou melhore em nosso casamento?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual é a sua maior esperança para o nosso futuro juntos?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você precisa de mim que ainda não pediu?"
+        },
+        {
+          "kind": "text",
+          "text": "Se pudesse mudar uma coisa em como nos comunicamos, o que seria?"
+        },
+        {
+          "kind": "text",
+          "text": "Qual palavra ou frase você quer que eu use mais com você?"
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 3: Perguntas Rápidas do Mapa do Amor"
+        },
+        {
+          "kind": "text",
+          "text": "Para aprofundar o conhecimento mútuo, usem estas perguntas em encontros semanais, no jantar ou numa caminhada. Um faz a pergunta, o outro responde — e depois trocam. Não há resposta certa ou errada."
+        },
+        {
+          "kind": "subheading",
+          "text": "Sobre o dia a dia"
+        },
+        {
+          "kind": "text",
+          "text": "O que lhe deu mais alegria esta semana?"
+        },
+        {
+          "kind": "text",
+          "text": "O que mais lhe pesou esta semana?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você mais precisa de mim neste momento da sua vida?"
+        },
+        {
+          "kind": "subheading",
+          "text": "Sobre nossa história"
+        },
+        {
+          "kind": "text",
+          "text": "Qual momento do nosso casamento você nunca esquecerá?"
+        },
+        {
+          "kind": "text",
+          "text": "O que em mim mais chamou a sua atenção quando nos conhecemos?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você aprendeu sobre o amor por causa de mim?"
+        },
+        {
+          "kind": "subheading",
+          "text": "Sobre sonhos e futuro"
+        },
+        {
+          "kind": "text",
+          "text": "Qual aventura você ainda quer viver comigo?"
+        },
+        {
+          "kind": "text",
+          "text": "O que você ainda não me contou sobre seus sonhos?"
+        },
+        {
+          "kind": "text",
+          "text": "Como você imagina nossa vida quando os filhos saírem de casa?"
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Após realizarem os exercícios acima, respondam e conversem:"
+        },
+        {
+          "kind": "bullet",
+          "text": "1. Em que situações vocês mais têm dificuldade de se comunicar com profundidade? O que costuma impedir?"
+        },
+        {
+          "kind": "bullet",
+          "text": "2. O que você descobriu sobre o cônjuge nos exercícios do Mapa do Amor que surpreendeu você?"
+        },
+        {
+          "kind": "bullet",
+          "text": "3. Há sonhos ou desejos que o cônjuge compartilhou que você ainda não conhecia? Como isso afeta você?"
+        },
+        {
+          "kind": "bullet",
+          "text": "4. O que o cônjuge poderia fazer ou dizer que ajudaria você a se abrir e se expressar mais livremente?"
+        },
+        {
+          "kind": "bullet",
+          "text": "5. Qual área do Mapa do Amor (história, sonhos, medos, amor, valores, futuro) você sente que vocês menos conversam no dia a dia?"
+        },
+        {
+          "kind": "bullet",
+          "text": "6. Há algo que você ainda não disse ao cônjuge sobre seus sonhos ou medos — e que esta lição lhe deu coragem de dizer?"
+        },
+        {
+          "kind": "bullet",
+          "text": "7. Como seria o casamento de vocês se atualizassem o Mapa do Amor um do outro pelo menos uma vez por mês?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Pratiquem o exercício de escuta ativa pelo menos 2 vezes esta semana — com timer de 3 minutos para cada um falar sem interrupção.",
+            "Durante sete dias, substituam \"você nunca\" por \"eu me sinto\". Observem como a conversa muda quando a linguagem muda.",
+            "Escolham 3 perguntas do Mapa do Amor que nunca conversaram antes e dediquem um tempo só para isso — sem celular, sem filhos, sem pressa.",
+            "Reservem 15 minutos por dia só para conversar. Sem agenda, sem problemas a resolver — apenas presença e conexão.",
+            "Cada um escreva, em um papel, um sonho que ainda não contou ao cônjuge. Troquem os papéis e conversem sobre ele com curiosidade e encorajamento."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "week": 5,
+      "title": "Gestão de Conflitos",
+      "subtitle": "Transformando brigas em crescimento",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Todo casal briga. O problema não é o conflito — é como ele é administrado. Conflitos mal resolvidos criam camadas de ressentimento que, ao longo do tempo, sufocam o amor. Conflitos bem resolvidos, por outro lado, aprofundam a confiança, geram empatia e fortalecem a intimidade."
+        },
+        {
+          "kind": "text",
+          "text": "O pesquisador Dr. John Gottman, da Universidade de Washington, dedicou mais de 40 anos a estudar casais. Ao observar milhares de conversas conjugais, identificou com impressionante precisão os padrões que levam ao divórcio — e os que levam à felicidade duradoura. Sua pesquisa é um presente para todo casal que quer crescer."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Não se ponha o sol sobre a ira de vocês, e não deem lugar ao diabo.\" — Efésios 4:26-27"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Não se irrite facilmente; porque a ira repousa no seio dos loucos.\" — Eclesiastes 7:9"
+        },
+        {
+          "kind": "quote",
+          "text": "\"A resposta branda desvia o furor, mas a palavra dura suscita a ira.\" — Provérbios 15:1"
+        },
+        {
+          "kind": "heading",
+          "text": "Os 4 Cavaleiros do Apocalipse — John Gottman"
+        },
+        {
+          "kind": "text",
+          "text": "Gottman nomeou de \"Os 4 Cavaleiros do Apocalipse\" os quatro padrões de comunicação que, quando presentes de forma regular em um casamento, preveem sua ruptura. Reconhecê-los é o primeiro passo para afastá-los."
+        },
+        {
+          "kind": "subheading",
+          "text": "1º Cavaleiro: Crítica"
+        },
+        {
+          "kind": "text",
+          "text": "A crítica vai além de uma reclamação legítima. Ela ataca o caráter ou a personalidade do cônjuge — não o comportamento em si."
+        },
+        {
+          "kind": "text",
+          "text": "Reclamação (saudável): \"Fiquei desapontado quando você chegou tarde sem avisar.\"",
+          "spans": [
+            {
+              "text": "Reclamação (saudável): ",
+              "bold": true
+            },
+            {
+              "text": "\"Fiquei desapontado quando você chegou tarde sem avisar.\"",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Crítica (destrutiva): \"Você é irresponsável e nunca pensa nos outros.\"",
+          "spans": [
+            {
+              "text": "Crítica (destrutiva): ",
+              "bold": true
+            },
+            {
+              "text": "\"Você é irresponsável e nunca pensa nos outros.\"",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto bíblico: Fale sobre o comportamento, não sobre o ser. Use linguagem de \"Eu sinto\" em vez de \"Você é\". (Efésios 4:29)",
+          "spans": [
+            {
+              "text": "Antídoto bíblico: ",
+              "bold": true
+            },
+            {
+              "text": "Fale sobre o comportamento, não sobre o ser. Use linguagem de \"Eu sinto\" em vez de \"Você é\". (Efésios 4:29)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "2º Cavaleiro: Desprezo"
+        },
+        {
+          "kind": "text",
+          "text": "O desprezo é o mais destrutivo dos quatro. Ele comunica superioridade moral: sarcasmo, ironia cruel, olhos revirados, humilhação explícita ou velada. Gottman afirma que o desprezo é o maior preditor individual de divórcio."
+        },
+        {
+          "kind": "text",
+          "text": "Exemplos: \"Nossa, que surpresa — você errou de novo\", risadas escarnecedoras, imitar o cônjuge de forma zombeteira e usar apelidos ofensivos.",
+          "spans": [
+            {
+              "text": "Exemplos: ",
+              "bold": true
+            },
+            {
+              "text": "\"Nossa, que surpresa — você errou de novo\", risadas escarnecedoras, imitar o cônjuge de forma zombeteira e usar apelidos ofensivos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto bíblico: Cultive admiração e gratidão genuínas. O desprezo nasce de ressentimentos acumulados — resolva-os antes que se tornem veneno. (Filipenses 2:3)",
+          "spans": [
+            {
+              "text": "Antídoto bíblico: ",
+              "bold": true
+            },
+            {
+              "text": "Cultive admiração e gratidão genuínas. O desprezo nasce de ressentimentos acumulados — resolva-os antes que se tornem veneno. (Filipenses 2:3)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "3º Cavaleiro: Defensividade"
+        },
+        {
+          "kind": "text",
+          "text": "A defensividade é a resposta natural quando nos sentimos atacados. Mas ela agrava o conflito em vez de resolvê-lo, pois comunica ao cônjuge que seu sentimento não importa."
+        },
+        {
+          "kind": "text",
+          "text": "Exemplos: \"A culpa não é minha, você que começou\", \"Sim, mas você também faz isso\", vitimização excessiva.",
+          "spans": [
+            {
+              "text": "Exemplos: ",
+              "bold": true
+            },
+            {
+              "text": "\"A culpa não é minha, você que começou\", \"Sim, mas você também faz isso\", vitimização excessiva.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto bíblico: Assuma responsabilidade, mesmo que parcial. \"Você tem razão em parte. Eu poderia ter feito diferente quando...\" (Tiago 5:16)",
+          "spans": [
+            {
+              "text": "Antídoto bíblico: ",
+              "bold": true
+            },
+            {
+              "text": "Assuma responsabilidade, mesmo que parcial. \"Você tem razão em parte. Eu poderia ter feito diferente quando...\" (Tiago 5:16)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "4º Cavaleiro: Bloqueio Emocional (Stonewalling)"
+        },
+        {
+          "kind": "text",
+          "text": "O bloqueio ocorre quando um dos cônjuges se fecha completamente: para de responder, afasta-se da conversa emocional ou fisicamente e passa a usar monossílabos ou o silêncio punitivo. Geralmente é resposta ao esgotamento emocional extremo."
+        },
+        {
+          "kind": "text",
+          "text": "Exemplos: Silêncio prolongado como punição, sair da sala sem aviso, desviar o olhar e não responder, fingir que não está ouvindo.",
+          "spans": [
+            {
+              "text": "Exemplos: ",
+              "bold": true
+            },
+            {
+              "text": "Silêncio prolongado como punição, sair da sala sem aviso, desviar o olhar e não responder, fingir que não está ouvindo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Antídoto bíblico: Peça uma pausa com hora marcada: \"Preciso de 20 minutos para me acalmar. Podemos continuar às 20h?\" Cuide de sua regulação emocional. (Provérbios 17:14)",
+          "spans": [
+            {
+              "text": "Antídoto bíblico: ",
+              "bold": true
+            },
+            {
+              "text": "Peça uma pausa com hora marcada: \"Preciso de 20 minutos para me acalmar. Podemos continuar às 20h?\" Cuide de sua regulação emocional. (Provérbios 17:14)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Identificando os Cavaleiros"
+        },
+        {
+          "kind": "text",
+          "text": "Individualmente, marquem com honestidade quais cavaleiros aparecem com mais frequência em cada um de vocês durante os conflitos. Depois partilhem com o cônjuge — como um ato de vulnerabilidade e crescimento, não de acusação."
+        },
+        {
+          "kind": "text",
+          "text": "Marido: [ ] Crítica [ ] Desprezo [ ] Defensividade [ ] Bloqueio",
+          "spans": [
+            {
+              "text": "Marido:  ",
+              "bold": true
+            },
+            {
+              "text": "[ ] Crítica    [ ] Desprezo    [ ] Defensividade    [ ] Bloqueio",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Esposa: [ ] Crítica [ ] Desprezo [ ] Defensividade [ ] Bloqueio",
+          "spans": [
+            {
+              "text": "Esposa:  ",
+              "bold": true
+            },
+            {
+              "text": "[ ] Crítica    [ ] Desprezo    [ ] Defensividade    [ ] Bloqueio",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Regras de Ouro para Conflitos Saudáveis"
+        },
+        {
+          "kind": "bullet",
+          "text": "Ataque o problema, não a pessoa: \"Esse comportamento me incomodou\" é diferente de \"Você é irresponsável\".",
+          "spans": [
+            {
+              "text": "Ataque o problema, não a pessoa: ",
+              "bold": true
+            },
+            {
+              "text": "\"Esse comportamento me incomodou\" é diferente de \"Você é irresponsável\".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Uma coisa por vez: Não tragam conflitos passados para o presente. Foquem no assunto em pauta.",
+          "spans": [
+            {
+              "text": "Uma coisa por vez: ",
+              "bold": true
+            },
+            {
+              "text": "Não tragam conflitos passados para o presente. Foquem no assunto em pauta.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Pausa estratégica: Se a temperatura subir, combinem um sinal para pausar e estabeleçam hora de retomar.",
+          "spans": [
+            {
+              "text": "Pausa estratégica: ",
+              "bold": true
+            },
+            {
+              "text": "Se a temperatura subir, combinem um sinal para pausar e estabeleçam hora de retomar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Busquem entender antes de serem entendidos: A vitória no casamento não é ganhar a briga — é encontrar a solução juntos.",
+          "spans": [
+            {
+              "text": "Busquem entender antes de serem entendidos: ",
+              "bold": true
+            },
+            {
+              "text": "A vitória no casamento não é ganhar a briga — é encontrar a solução juntos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Peçam perdão genuíno: \"Eu errei. Você me perdoa?\" — não \"Sinto muito se você se sentiu mal.\"",
+          "spans": [
+            {
+              "text": "Peçam perdão genuíno: ",
+              "bold": true
+            },
+            {
+              "text": "\"Eu errei. Você me perdoa?\" — não \"Sinto muito se você se sentiu mal.\"",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Proporção 5:1 de Gottman: Casais saudáveis têm 5 interações positivas para cada negativa. Invistam nos momentos de paz.",
+          "spans": [
+            {
+              "text": "Proporção 5:1 de Gottman: ",
+              "bold": true
+            },
+            {
+              "text": "Casais saudáveis têm 5 interações positivas para cada negativa. Invistam nos momentos de paz.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois conversem com honestidade e abertura:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Qual dos quatro cavaleiros aparece com mais frequência em você durante os conflitos? Em qual situação específica ele costuma surgir?"
+        },
+        {
+          "kind": "text",
+          "text": "2. O que você faz no calor de uma briga que sabe que não deveria fazer? O que faz você perder o controle?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Como você se sente quando o cônjuge usa crítica ou desprezo com você? O que acontece dentro de você?"
+        },
+        {
+          "kind": "text",
+          "text": "4. O que você precisa do seu cônjuge para não entrar em bloqueio emocional durante uma conversa difícil?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Pense em um conflito recente. Qual antídoto de Gottman poderia ter mudado o rumo daquela conversa?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Como era a gestão de conflitos na família em que você cresceu? Que padrão você herdou — saudável ou não?"
+        },
+        {
+          "kind": "text",
+          "text": "7. O que você genuinamente admira na forma como seu cônjuge lida com os conflitos? (Há algo positivo — encontre-o!)"
+        },
+        {
+          "kind": "text",
+          "text": "8. Qual seria para vocês o sinal de que um conflito foi realmente bem resolvido — e não apenas encerrado por exaustão?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Criem uma \"palavra de pausa\" — um código só de vocês para usar quando a conversa esquentar demais. Combinem também o tempo de pausa e a hora de retomar.",
+            "Durante esta semana, toda vez que perceberem um cavaleiro em si mesmos, parem e digam: \"Cavaleiro aparecendo. Deixe-me recomeçar.\" Pratiquem o antídoto na hora.",
+            "Na próxima vez que surgir um conflito, cada um escreva o que está sentindo antes de falar. Depois compartilhem com calma, usando frases em primeira pessoa, como \"eu sinto\".",
+            "Apliquem a proporção 5:1: para cada momento de tensão nesta semana, criem conscientemente 5 momentos de conexão positiva — elogio, toque, gratidão, humor, interesse genuíno.",
+            "Terminem a semana com esta pergunta um ao outro: \"O que posso fazer para que você se sinta mais seguro(a) quando discutimos?\""
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "week": 6,
+      "title": "Perdão, Cura e o Banco do Amor",
+      "subtitle": "Liberando o peso do passado — e investindo no futuro",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "O perdão é o oxigênio do casamento. Sem ele, o relacionamento sufoca lentamente sob o peso das mágoas acumuladas. Com ele, até as feridas mais profundas podem ser curadas e o amor pode florescer novamente."
+        },
+        {
+          "kind": "text",
+          "text": "Mas o perdão não age sozinho. Ele precisa caminhar junto com um esforço diário de investir no relacionamento — de fazer depósitos constantes no que o pesquisador John Gottman chama de Banco do Amor. Perdoar é zerar uma dívida; depositar é construir riqueza. Nesta lição, vocês vão aprender a fazer os dois."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Suportem-se uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor lhes perdoou.\" — Colossenses 3:13"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Sede bondosos e compassivos uns para com os outros, perdoando-vos mutuamente, assim como Deus vos perdoou em Cristo.\" — Efésios 4:32"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O amor sofre longo tempo e é benigno; o amor não arde em ciúmes; o amor não se vangloria, não se ensoberbece.\" — 1 Coríntios 13:4"
+        },
+        {
+          "kind": "heading",
+          "text": "O Processo do Perdão"
+        },
+        {
+          "kind": "text",
+          "text": "Perdoar não significa fingir que nada aconteceu, minimizar a dor ou eliminar consequências. Significa escolher não deixar que a ofensa defina o futuro do relacionamento. É uma decisão — não um sentimento — que muitas vezes precisa ser renovada diariamente."
+        },
+        {
+          "kind": "bullet",
+          "text": "1. Reconheça a dor: Não minimize o que aconteceu. A dor é real e precisa ser nomeada — dentro de você e com o cônjuge.",
+          "spans": [
+            {
+              "text": "1. Reconheça a dor: ",
+              "bold": true
+            },
+            {
+              "text": "Não minimize o que aconteceu. A dor é real e precisa ser nomeada — dentro de você e com o cônjuge.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "2. Comunique o impacto: Diga ao cônjuge como a atitude o afetou, sem acusação, mas com honestidade e vulnerabilidade.",
+          "spans": [
+            {
+              "text": "2. Comunique o impacto: ",
+              "bold": true
+            },
+            {
+              "text": "Diga ao cônjuge como a atitude o afetou, sem acusação, mas com honestidade e vulnerabilidade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "3. Assuma responsabilidade: O ofensor reconhece o erro e demonstra arrependimento genuíno — não apenas para encerrar o assunto.",
+          "spans": [
+            {
+              "text": "3. Assuma responsabilidade: ",
+              "bold": true
+            },
+            {
+              "text": "O ofensor reconhece o erro e demonstra arrependimento genuíno — não apenas para encerrar o assunto.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "4. Faça a escolha: O perdão é uma decisão que liberta, antes de tudo, quem perdoa. Ore pedindo a graça de perdoar de verdade.",
+          "spans": [
+            {
+              "text": "4. Faça a escolha: ",
+              "bold": true
+            },
+            {
+              "text": "O perdão é uma decisão que liberta, antes de tudo, quem perdoa. Ore pedindo a graça de perdoar de verdade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "5. Reconstrua a confiança: Perdão é imediato; confiança se reconstrói com tempo, ações consistentes e transparência.",
+          "spans": [
+            {
+              "text": "5. Reconstrua a confiança: ",
+              "bold": true
+            },
+            {
+              "text": "Perdão é imediato; confiança se reconstrói com tempo, ações consistentes e transparência.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "O que o Perdão NÃO é"
+        },
+        {
+          "kind": "bullet",
+          "text": "Perdão não é esquecer — mas é escolher não usar o passado como arma em novos conflitos."
+        },
+        {
+          "kind": "bullet",
+          "text": "Perdão não é isentar de consequências — relacionamentos saudáveis têm limites e responsabilidade."
+        },
+        {
+          "kind": "bullet",
+          "text": "Perdão não é sentimento imediato — é uma decisão que o sentimento segue com o tempo e a graça de Deus."
+        },
+        {
+          "kind": "bullet",
+          "text": "Perdão não é reconciliação automática em casos de abuso — nesses casos, busque apoio pastoral e profissional."
+        },
+        {
+          "kind": "heading",
+          "text": "O Banco do Amor — Depósitos e Saques no Relacionamento"
+        },
+        {
+          "kind": "text",
+          "text": "John Gottman desenvolveu a metáfora do Banco do Amor (Emotional Bank Account) para descrever a saúde emocional de um casamento. Assim como uma conta bancária, o relacionamento possui um saldo que sobe com depósitos e cai com saques — e um saldo positivo é o que permite que o casal atravesse crises sem romper."
+        },
+        {
+          "kind": "text",
+          "text": "A grande revelação da pesquisa é que não basta evitar os saques — é preciso fazer depósitos ativos e consistentes. Casamentos que só sobrevivem sem brigar, mas não investem em conexão positiva, ficam com saldo zero: tecnicamente no azul, mas sem reserva para as tempestades."
+        },
+        {
+          "kind": "quote",
+          "text": "\"O coração alegre é um bom remédio, mas o espírito abatido seca os ossos.\" — Provérbios 17:22"
+        },
+        {
+          "kind": "subheading",
+          "text": "O que são Saques — e como eles drenam o saldo"
+        },
+        {
+          "kind": "text",
+          "text": "Saques são ações, palavras ou omissões que retiram confiança, segurança e afeto do relacionamento. Nem todo saque é intencional — muitos acontecem por descuido, cansaço ou padrões herdados da família de origem."
+        },
+        {
+          "kind": "text",
+          "text": "Saques grandes: traição, mentira, deslealdade, humilhação pública, desprezo declarado, abandono emocional.",
+          "spans": [
+            {
+              "text": "Saques grandes: ",
+              "bold": true
+            },
+            {
+              "text": "traição, mentira, deslealdade, humilhação pública, desprezo declarado, abandono emocional.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saques pequenos (mas frequentes): ignorar o cônjuge, não cumprir promessas, críticas constantes, desinteresse pelo dia a dia do outro, celular na mesa durante as refeições, não agradecer, tom de voz ríspido.",
+          "spans": [
+            {
+              "text": "Saques pequenos (mas frequentes): ",
+              "bold": true
+            },
+            {
+              "text": "ignorar o cônjuge, não cumprir promessas, críticas constantes, desinteresse pelo dia a dia do outro, celular na mesa durante as refeições, não agradecer, tom de voz ríspido.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saques invisíveis: não celebrar conquistas do cônjuge, esquecer datas importantes, não perguntar como o outro está, ausência emocional mesmo quando fisicamente presente.",
+          "spans": [
+            {
+              "text": "Saques invisíveis: ",
+              "bold": true
+            },
+            {
+              "text": "não celebrar conquistas do cônjuge, esquecer datas importantes, não perguntar como o outro está, ausência emocional mesmo quando fisicamente presente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "O que são Depósitos — e como eles constroem o saldo"
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos são gestos, palavras e escolhas que aumentam a confiança, o afeto e a segurança do cônjuge. O que conta como depósito varia de pessoa para pessoa — por isso conhecer bem o cônjuge (Mapa do Amor) é tão importante: você precisa depositar na moeda que faz sentido para ele ou ela."
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos de presença: ouvir com atenção plena, fazer perguntas genuínas sobre o dia, sentar junto sem tela, olhar nos olhos durante a conversa.",
+          "spans": [
+            {
+              "text": "Depósitos de presença: ",
+              "bold": true
+            },
+            {
+              "text": "ouvir com atenção plena, fazer perguntas genuínas sobre o dia, sentar junto sem tela, olhar nos olhos durante a conversa.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos de afeto: toque físico carinhoso, beijo ao sair e ao chegar, abraço longo sem pressa, bilhetes de amor, mensagens de encorajamento ao longo do dia.",
+          "spans": [
+            {
+              "text": "Depósitos de afeto: ",
+              "bold": true
+            },
+            {
+              "text": "toque físico carinhoso, beijo ao sair e ao chegar, abraço longo sem pressa, bilhetes de amor, mensagens de encorajamento ao longo do dia.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos de valorização: elogios específicos e genuínos, reconhecer o esforço do cônjuge, expressar gratidão em voz alta, celebrar conquistas juntos.",
+          "spans": [
+            {
+              "text": "Depósitos de valorização: ",
+              "bold": true
+            },
+            {
+              "text": "elogios específicos e genuínos, reconhecer o esforço do cônjuge, expressar gratidão em voz alta, celebrar conquistas juntos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos de cuidado: lembrar o que é importante para o cônjuge, ajudar sem ser pedido, fazer o que o outro gosta mesmo que não seja sua preferência, orar pelo cônjuge todos os dias.",
+          "spans": [
+            {
+              "text": "Depósitos de cuidado: ",
+              "bold": true
+            },
+            {
+              "text": "lembrar o que é importante para o cônjuge, ajudar sem ser pedido, fazer o que o outro gosta mesmo que não seja sua preferência, orar pelo cônjuge todos os dias.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósitos de perdão: pedir desculpas com humildade e especificidade, reconhecer o dano causado, demonstrar mudança de comportamento ao longo do tempo.",
+          "spans": [
+            {
+              "text": "Depósitos de perdão: ",
+              "bold": true
+            },
+            {
+              "text": "pedir desculpas com humildade e especificidade, reconhecer o dano causado, demonstrar mudança de comportamento ao longo do tempo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "subheading",
+          "text": "A Regra 5:1 de Gottman"
+        },
+        {
+          "kind": "text",
+          "text": "Gottman descobriu que casais estáveis e felizes têm, em média, cinco interações positivas para cada interação negativa. Essa proporção — cinco depósitos para cada saque — é o que mantém o saldo saudável. Em momentos de conflito intenso, são necessários ainda mais depósitos para recuperar o equilíbrio."
+        },
+        {
+          "kind": "text",
+          "text": "A implicação prática é poderosa: não basta parar de brigar. É preciso aumentar ativamente os depósitos no dia a dia — mesmo nos dias comuns, sem ocasião especial."
+        },
+        {
+          "kind": "quote",
+          "text": "\"Misericórdia e verdade nunca te abandonem; ata-as ao teu pescoço, escreve-as na tábua do teu coração.\" — Provérbios 3:3"
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 1: Diagnóstico do Saldo"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente primeiro, depois compartilhem. Sejam honestos — o objetivo é clareza, não acusação."
+        },
+        {
+          "kind": "text",
+          "text": "Como você avalia o saldo atual do Banco do Amor do seu casamento?"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Saldo muito positivo — muitos depósitos, boa reserva emocional"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Saldo positivo — mais depósitos do que saques, mas poderia melhorar"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Saldo zerado — depósitos e saques se equivalem, sem reserva"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Saldo negativo — os saques têm superado os depósitos"
+        },
+        {
+          "kind": "text",
+          "text": "[ ] Saldo muito negativo — há dívidas emocionais sérias a resolver"
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 2: Mapeando Meus Depósitos e Saques"
+        },
+        {
+          "kind": "text",
+          "text": "Cada cônjuge responde separadamente nas linhas abaixo, depois compartilha com o outro:"
+        },
+        {
+          "kind": "subheading",
+          "text": "Meus principais saques (o que faço que retira do saldo do nosso relacionamento)"
+        },
+        {
+          "kind": "text",
+          "text": "Saque 1: Ex.: tom ríspido quando estou cansado(a)",
+          "spans": [
+            {
+              "text": "Saque 1:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: tom ríspido quando estou cansado(a)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saque 2: Ex.: não cumprir o que prometo",
+          "spans": [
+            {
+              "text": "Saque 2:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: não cumprir o que prometo",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saque 3:"
+        },
+        {
+          "kind": "subheading",
+          "text": "Meus principais depósitos (o que já faço que contribui para o saldo)"
+        },
+        {
+          "kind": "text",
+          "text": "Depósito 1: Ex.: sempre pergunto como foi o dia",
+          "spans": [
+            {
+              "text": "Depósito 1:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: sempre pergunto como foi o dia",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósito 2: Ex.: oro pelo cônjuge toda manhã",
+          "spans": [
+            {
+              "text": "Depósito 2:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: oro pelo cônjuge toda manhã",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Depósito 3:"
+        },
+        {
+          "kind": "subheading",
+          "text": "O que eu poderia começar a depositar mais — na moeda que faz sentido para o meu cônjuge"
+        },
+        {
+          "kind": "text",
+          "text": "Novo depósito 1: Ex.: elogios específicos, não genéricos",
+          "spans": [
+            {
+              "text": "Novo depósito 1:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: elogios específicos, não genéricos",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Novo depósito 2: Ex.: toques de afeto ao longo do dia",
+          "spans": [
+            {
+              "text": "Novo depósito 2:",
+              "bold": true
+            },
+            {
+              "text": "  Ex.: toques de afeto ao longo do dia",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Novo depósito 3:"
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício 3: Plano de Depósitos da Semana"
+        },
+        {
+          "kind": "text",
+          "text": "Juntos, combinem 5 depósitos concretos que cada um vai fazer nos próximos 7 dias. Sejam específicos — depósitos genéricos não contam tanto quanto depósitos personalizados."
+        },
+        {
+          "kind": "text",
+          "text": "Marido — 5 depósitos que farei esta semana:"
+        },
+        {
+          "kind": "text",
+          "text": "1."
+        },
+        {
+          "kind": "text",
+          "text": "2."
+        },
+        {
+          "kind": "text",
+          "text": "3."
+        },
+        {
+          "kind": "text",
+          "text": "4."
+        },
+        {
+          "kind": "text",
+          "text": "5."
+        },
+        {
+          "kind": "text",
+          "text": "Esposa — 5 depósitos que farei esta semana:"
+        },
+        {
+          "kind": "text",
+          "text": "1."
+        },
+        {
+          "kind": "text",
+          "text": "2."
+        },
+        {
+          "kind": "text",
+          "text": "3."
+        },
+        {
+          "kind": "text",
+          "text": "4."
+        },
+        {
+          "kind": "text",
+          "text": "5."
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois conversem com abertura e generosidade:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Há algo que você ainda não perdoou completamente no cônjuge — uma mágoa que ainda pesa? O que impede o perdão completo?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Há algo pelo qual você precisa pedir perdão — algo que gerou um saque e ainda não foi reparado com honestidade?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Qual é o saque que o cônjuge faz que mais afeta você emocionalmente? Ele sabe disso?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Qual é o depósito que o cônjuge faz que mais enche o seu coração — mesmo que seja algo simples?"
+        },
+        {
+          "kind": "text",
+          "text": "5. O que você precisaria receber mais do cônjuge para sentir o saldo do Banco do Amor positivo?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Como seria o clima emocional do casamento se vocês praticassem a proporção 5:1 — cinco depósitos para cada saque — de forma consistente?"
+        },
+        {
+          "kind": "text",
+          "text": "7. Qual é o perdão que, se fosse concedido hoje, aliviaria o peso que vocês dois carregam?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Escrevam uma carta de perdão ao cônjuge — à mão, no papel. Não precisa entregar imediatamente. O processo de escrever já começa a transformar o coração.",
+            "Executem o Plano de Depósitos da Semana que combinaram no Exercício 3. Ao final da semana, conversem: o cônjuge percebeu os depósitos? Como se sentiu?",
+            "Toda vez que perceber que fez um saque esta semana — palavra ríspida, promessa não cumprida, desatenção — pare, reconheça e faça imediatamente um depósito de reparação.",
+            "Orem juntos pedindo a Deus graça para perdoar, humildade para reconhecer os próprios saques e criatividade para fazer depósitos que realmente toquem o coração do cônjuge.",
+            "Terminem a semana com um ato simbólico de perdão e renovação: um jantar especial, uma caminhada, um abraço longo — algo que marque a decisão de recomeçar com saldo positivo."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "week": 7,
+      "title": "Finanças no Casamento",
+      "subtitle": "Administrando recursos com sabedoria, unidade e propósito",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "O dinheiro é uma das principais causas de conflito conjugal — não porque seja mau em si, mas porque revela valores, inseguranças e crenças formadas ao longo de toda uma vida. Quando dois sistemas financeiros diferentes se unem no casamento, é preciso muito diálogo, transparência e graça."
+        },
+        {
+          "kind": "text",
+          "text": "Cada pessoa chega ao casamento com uma história financeira: a família que tinha abundância ou escassez, o pai que nunca falava de dinheiro ou a mãe que vivia ansiosa com as contas. Esses padrões invisíveis moldam comportamentos reais — e quando não são reconhecidos, geram conflitos que parecem ser sobre dinheiro, mas na verdade são sobre segurança, controle e confiança."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Honra ao Senhor com os teus bens e com as primícias de toda a tua renda.\" — Provérbios 3:9"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Pois onde estiver o teu tesouro, aí também estará o teu coração.\" — Mateus 6:21"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Quem de vós, querendo edificar uma torre, não se assenta primeiro e calcula a despesa, para ver se tem o necessário para a acabar?\" — Lucas 14:28"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O rico domina os pobres, e o devedor é escravo do credor.\" — Provérbios 22:7"
+        },
+        {
+          "kind": "heading",
+          "text": "Perfis Financeiros — Você se Reconhece?"
+        },
+        {
+          "kind": "text",
+          "text": "Gary Chapman e Ron Blue identificam que as pessoas tendem a ter perfis financeiros distintos, que frequentemente se atraem e depois entram em conflito. Reconhecer o perfil de cada um é o primeiro passo para criar um sistema financeiro que funcione para os dois."
+        },
+        {
+          "kind": "bullet",
+          "text": "O Poupador: Encontra segurança em poupar. Pode se tornar controlador ou ansioso com gastos do cônjuge. Precisa aprender a desfrutar.",
+          "spans": [
+            {
+              "text": "O Poupador: Encontra segurança em poupar.",
+              "bold": true
+            },
+            {
+              "text": " Pode se tornar controlador ou ansioso com gastos do cônjuge. Precisa aprender a desfrutar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "O Gastador: Vive o presente. Pode gerar dívidas e insegurança no cônjuge poupador. Precisa aprender a planejar.",
+          "spans": [
+            {
+              "text": "O Gastador: ",
+              "bold": true
+            },
+            {
+              "text": "Vive o presente. Pode gerar dívidas e insegurança no cônjuge poupador. Precisa aprender a planejar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Quem Evita Dívidas: Evita crédito a qualquer custo. Pode perder oportunidades legítimas. Precisa distinguir dívida boa de dívida ruim.",
+          "spans": [
+            {
+              "text": "Quem Evita Dívidas: ",
+              "bold": true
+            },
+            {
+              "text": "Evita crédito a qualquer custo. Pode perder oportunidades legítimas. Precisa distinguir dívida boa de dívida ruim.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "O Investidor: Pensa no longo prazo. Pode negligenciar necessidades presentes. Precisa equilibrar futuro e presente.",
+          "spans": [
+            {
+              "text": "O Investidor: ",
+              "bold": true
+            },
+            {
+              "text": "Pensa no longo prazo. Pode negligenciar necessidades presentes. Precisa equilibrar futuro e presente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "O Doador Compulsivo: Generoso ao extremo. Pode comprometer a estabilidade do lar. Precisa aprender a dar com planejamento.",
+          "spans": [
+            {
+              "text": "O Doador Compulsivo: ",
+              "bold": true
+            },
+            {
+              "text": "Generoso ao extremo. Pode comprometer a estabilidade do lar. Precisa aprender a dar com planejamento.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Pilares da Saúde Financeira Conjugal"
+        },
+        {
+          "kind": "bullet",
+          "text": "Transparência total: Sem segredos financeiros. Dívidas, gastos, investimentos e renda precisam ser conhecidos por ambos — sem exceção.",
+          "spans": [
+            {
+              "text": "Transparência total: ",
+              "bold": true
+            },
+            {
+              "text": "Sem segredos financeiros. Dívidas, gastos, investimentos e renda precisam ser conhecidos por ambos — sem exceção.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Orçamento conjunto: Planejem juntos como o dinheiro será usado. O orçamento não é uma prisão — é um acordo de liberdade.",
+          "spans": [
+            {
+              "text": "Orçamento conjunto: ",
+              "bold": true
+            },
+            {
+              "text": "Planejem juntos como o dinheiro será usado. O orçamento não é uma prisão — é um acordo de liberdade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Prioridade aos dízimos e às ofertas: Honrar a Deus com as primícias é um ato de fé e de ordenamento espiritual das finanças.",
+          "spans": [
+            {
+              "text": "Prioridade aos dízimos e às ofertas: ",
+              "bold": true
+            },
+            {
+              "text": "Honrar a Deus com as primícias é um ato de fé e de ordenamento espiritual das finanças.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Reserva de emergência: Antes de investir, construam um colchão de 3 a 6 meses de despesas. Isso elimina grande parte da ansiedade financeira conjugal.",
+          "spans": [
+            {
+              "text": "Reserva de emergência: ",
+              "bold": true
+            },
+            {
+              "text": "Antes de investir, construam um colchão de 3 a 6 meses de despesas. Isso elimina grande parte da ansiedade financeira conjugal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Metas compartilhadas: Sonhem juntos: casa própria, educação dos filhos, viagem, aposentadoria. Metas compartilhadas unem; ausência de metas gera deriva.",
+          "spans": [
+            {
+              "text": "Metas compartilhadas: ",
+              "bold": true
+            },
+            {
+              "text": "Sonhem juntos: casa própria, educação dos filhos, viagem, aposentadoria. Metas compartilhadas unem; ausência de metas gera deriva.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Autonomia individual: Cada cônjuge pode ter uma reserva pessoal para gastos sem precisar dar satisfação. Isso evita controle e humilhação.",
+          "spans": [
+            {
+              "text": "Autonomia individual: ",
+              "bold": true
+            },
+            {
+              "text": "Cada cônjuge pode ter uma reserva pessoal para gastos sem precisar dar satisfação. Isso evita controle e humilhação.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Generosidade planejada: Casais generosos são casais felizes. Planejem dar — para a igreja, para causas, para pessoas em necessidade.",
+          "spans": [
+            {
+              "text": "Generosidade planejada: ",
+              "bold": true
+            },
+            {
+              "text": "Casais generosos são casais felizes. Planejem dar — para a igreja, para causas, para pessoas em necessidade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Esboço de Orçamento Mensal"
+        },
+        {
+          "kind": "text",
+          "text": "Preencham juntos o esboço abaixo com os valores reais do mês atual. O objetivo não é perfeição — é clareza e transparência."
+        },
+        {
+          "kind": "text",
+          "text": "RECEITAS"
+        },
+        {
+          "kind": "text",
+          "text": "Renda do marido (líquida): R$ __________",
+          "spans": [
+            {
+              "text": "Renda do marido (líquida):",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Renda da esposa (líquida): R$ __________",
+          "spans": [
+            {
+              "text": "Renda da esposa (líquida):",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Outras rendas: R$ __________",
+          "spans": [
+            {
+              "text": "Outras rendas:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "TOTAL DE RECEITAS: R$ __________",
+          "spans": [
+            {
+              "text": "TOTAL DE RECEITAS:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "DESPESAS FIXAS"
+        },
+        {
+          "kind": "text",
+          "text": "Moradia (aluguel/prestação): R$ __________",
+          "spans": [
+            {
+              "text": "Moradia (aluguel/prestação):",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Alimentação: R$ __________",
+          "spans": [
+            {
+              "text": "Alimentação:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Transporte: R$ __________",
+          "spans": [
+            {
+              "text": "Transporte:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saúde e planos: R$ __________",
+          "spans": [
+            {
+              "text": "Saúde e planos:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Educação: R$ __________",
+          "spans": [
+            {
+              "text": "Educação:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Contas (água, luz, internet): R$ __________",
+          "spans": [
+            {
+              "text": "Contas (água, luz, internet):",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "DESTINOS INTENCIONAIS"
+        },
+        {
+          "kind": "text",
+          "text": "Dízimo e ofertas: R$ __________",
+          "spans": [
+            {
+              "text": "Dízimo e ofertas:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Poupança / reserva de emergência: R$ __________",
+          "spans": [
+            {
+              "text": "Poupança / reserva de emergência:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Investimentos: R$ __________",
+          "spans": [
+            {
+              "text": "Investimentos:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Lazer e relacionamento: R$ __________",
+          "spans": [
+            {
+              "text": "Lazer e relacionamento:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Reserva pessoal de cada um: R$ __________",
+          "spans": [
+            {
+              "text": "Reserva pessoal de cada um:",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Saldo (Receitas − Despesas): R$ __________",
+          "spans": [
+            {
+              "text": "Saldo (Receitas − Despesas):",
+              "bold": true
+            },
+            {
+              "text": "   R$ __________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois conversem sem julgamento:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Como eram as finanças na família em que você cresceu? Havia abundância, escassez, segredos ou conflitos relacionados a dinheiro? Como isso moldou você?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Com qual perfil financeiro você mais se identifica — poupador, gastador, avesso a dívidas, investidor, doador? E o seu cônjuge?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Há alguma dívida, gasto oculto ou situação financeira que o cônjuge ainda não conhece completamente? Esta é a hora da transparência."
+        },
+        {
+          "kind": "text",
+          "text": "4. Em que área das finanças vocês mais divergem? O que essa divergência revela sobre os valores e medos de cada um?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Quais são as três maiores metas financeiras de vocês para os próximos três a cinco anos? Vocês estão alinhados sobre prioridades?"
+        },
+        {
+          "kind": "bullet",
+          "text": "6. Vocês praticam o dízimo? Se não, o que tem impedido? Se sim, como isso tem impactado a vida do casal?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Completem juntos o Esboço de Orçamento Mensal desta lição com os valores reais. Sem julgamentos — apenas clareza.",
+            "Identifiquem uma dívida ou gasto que precisa ser enfrentado e criem um plano de ação simples para começar a resolver.",
+            "Definam juntos uma meta financeira de curto prazo (até 6 meses) e o primeiro passo concreto para alcançá-la.",
+            "Conversem sobre generosidade: há uma causa, pessoa ou ministério para o qual vocês querem começar a dar intencionalmente?"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "week": 8,
+      "title": "Intimidade e Sexualidade",
+      "subtitle": "O dom sagrado da união física e emocional",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "A sexualidade no casamento é um dom de Deus — sagrado, belo e poderoso. É uma das expressões mais profundas da aliança conjugal, onde dois se tornam literalmente uma só carne. Longe de ser um tema tabu, a Bíblia dedica um livro inteiro — Cantares de Salomão — à celebração do amor físico e emocional entre marido e mulher."
+        },
+        {
+          "kind": "text",
+          "text": "A intimidade sexual saudável exige comunicação aberta, segurança emocional, respeito pelos limites do outro e uma visão de que o prazer do cônjuge é uma responsabilidade amorosa. Quando a intimidade vai bem no casamento, ela representa cerca de 20% da satisfação do casal; quando vai mal, passa a representar 80% dos problemas."
+        },
+        {
+          "kind": "text",
+          "text": "Esta lição é para ser feita com segurança e abertura. Algumas perguntas serão respondidas individualmente antes de compartilhar. O objetivo não é expor vulnerabilidades — é criar o ambiente de confiança onde a intimidade plena pode florescer."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Que a sua fonte seja bendita, e alegra-te com a mulher da tua mocidade.\" — Provérbios 5:18"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O casamento deve ser honrado por todos, e o leito conjugal conservado puro.\" — Hebreus 13:4"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O marido cumpra o seu dever conjugal para com a esposa, e da mesma forma a esposa para com o marido.\" — 1 Coríntios 7:3-4"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Como és bela, meu amor! Como és bela!\" — Cantares 1:15"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Que a sua mão esquerda esteja debaixo da minha cabeça e que a sua direita me abrace!\" — Cantares 2:6"
+        },
+        {
+          "kind": "text",
+          "text": "Cantares de Salomão é uma celebração inspirada da intimidade conjugal — física, emocional e espiritual. O fato de Deus incluí-lo no cânon bíblico é uma declaração clara: a sexualidade no casamento não é tolerada — é celebrada e santificada por Ele."
+        },
+        {
+          "kind": "heading",
+          "text": "As Dimensões da Intimidade Conjugal"
+        },
+        {
+          "kind": "bullet",
+          "text": "Intimidade emocional: É a base de tudo. A sexualidade floresce onde há segurança emocional, confiança e conexão genuína. Quando a intimidade emocional está comprometida, a física segue o mesmo caminho.",
+          "spans": [
+            {
+              "text": "Intimidade emocional: ",
+              "bold": true
+            },
+            {
+              "text": "É a base de tudo. A sexualidade floresce onde há segurança emocional, confiança e conexão genuína. Quando a intimidade emocional está comprometida, a física segue o mesmo caminho.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Intimidade espiritual: Casais que oram juntos e compartilham a vida espiritual têm maior satisfação na vida sexual. A vulnerabilidade espiritual abre a vulnerabilidade física.",
+          "spans": [
+            {
+              "text": "Intimidade espiritual: ",
+              "bold": true
+            },
+            {
+              "text": "Casais que oram juntos e compartilham a vida espiritual têm maior satisfação na vida sexual. A vulnerabilidade espiritual abre a vulnerabilidade física.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Comunicação sexual: Falar sobre desejos, necessidades, limites e expectativas com gentileza e sem julgamento. O que não é dito gera frustração, mal-entendidos e afastamento.",
+          "spans": [
+            {
+              "text": "Comunicação sexual: ",
+              "bold": true
+            },
+            {
+              "text": "Falar sobre desejos, necessidades, limites e expectativas com gentileza e sem julgamento. O que não é dito gera frustração, mal-entendidos e afastamento.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Priorização intencional: A vida corrida engole o que não é protegido. A intimidade precisa ser planejada — isso não a torna menos romântica; torna-a mais garantida.",
+          "spans": [
+            {
+              "text": "Priorização intencional: ",
+              "bold": true
+            },
+            {
+              "text": "A vida corrida engole o que não é protegido. A intimidade precisa ser planejada — isso não a torna menos romântica; torna-a mais garantida.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Criatividade e renovação: Manter a chama acesa exige investimento: novidade, surpresa, atenção às mudanças nas preferências do cônjuge ao longo do tempo.",
+          "spans": [
+            {
+              "text": "Criatividade e renovação: ",
+              "bold": true
+            },
+            {
+              "text": "Manter a chama acesa exige investimento: novidade, surpresa, atenção às mudanças nas preferências do cônjuge ao longo do tempo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Cura de feridas: Traumas passados, abuso, pornografia, infidelidade e decepções acumuladas afetam profundamente a sexualidade. Busquem ajuda especializada quando necessário — isso é coragem, não fraqueza.",
+          "spans": [
+            {
+              "text": "Cura de feridas: ",
+              "bold": true
+            },
+            {
+              "text": "Traumas passados, abuso, pornografia, infidelidade e decepções acumuladas afetam profundamente a sexualidade. Busquem ajuda especializada quando necessário — isso é coragem, não fraqueza.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "O Impacto da Pornografia"
+        },
+        {
+          "kind": "text",
+          "text": "A pornografia é um dos maiores sabotadores da intimidade conjugal na atualidade, e afeta casais cristãos em proporções preocupantes. Seus efeitos incluem: expectativas distorcidas sobre o corpo e o desempenho do cônjuge, diminuição do desejo real, criação de segredos e vergonha, e erosão da confiança quando descoberta."
+        },
+        {
+          "kind": "text",
+          "text": "Se a pornografia é uma realidade no casamento de vocês — seja no passado ou no presente — não é um assunto para ser varrido para baixo do tapete. É um saque enorme do Banco do Amor que precisa ser nomeado, trabalhado e curado. Há recursos e conselheiros especializados para isso. O silêncio é o aliado do problema."
+        },
+        {
+          "kind": "quote",
+          "text": "\"Vocês não são de si mesmos, pois foram comprados por alto preço. Portanto, glorificai a Deus no vosso corpo.\" — 1 Coríntios 6:19-20"
+        },
+        {
+          "kind": "heading",
+          "text": "As 5 Linguagens do Amor Aplicadas à Intimidade"
+        },
+        {
+          "kind": "text",
+          "text": "Gary Chapman identificou que cada pessoa recebe e expressa amor de formas diferentes. Conhecer a linguagem do amor do cônjuge transforma a vida sexual e afetiva do casal."
+        },
+        {
+          "kind": "bullet",
+          "text": "Palavras de afirmação: Elogios específicos sobre o corpo, a personalidade e o desempenho do cônjuge. Dizer o que aprecia, o que sente, o que deseja. Para quem tem essa linguagem como principal, as palavras criam ou destroem a intimidade.",
+          "spans": [
+            {
+              "text": "Palavras de afirmação: ",
+              "bold": true
+            },
+            {
+              "text": "Elogios específicos sobre o corpo, a personalidade e o desempenho do cônjuge. Dizer o que aprecia, o que sente, o que deseja. Para quem tem essa linguagem como principal, as palavras criam ou destroem a intimidade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Toque físico: Afeto não sexual contínuo ao longo do dia — abraços, beijos, mãos dadas, toque no rosto — que cria o ambiente de segurança para a intimidade plena.",
+          "spans": [
+            {
+              "text": "Toque físico: ",
+              "bold": true
+            },
+            {
+              "text": "Afeto não sexual contínuo ao longo do dia — abraços, beijos, mãos dadas, toque no rosto — que cria o ambiente de segurança para a intimidade plena.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Tempo de qualidade: Presença plena e desejo genuíno de estar com o cônjuge. Para essa linguagem, ser prioridade importa mais do que frequência.",
+          "spans": [
+            {
+              "text": "Tempo de qualidade: ",
+              "bold": true
+            },
+            {
+              "text": "Presença plena e desejo genuíno de estar com o cônjuge. Para essa linguagem, ser prioridade importa mais do que frequência.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Atos de serviço: Ajudar sem ser pedido, aliviar a carga do cônjuge. Quando quem tem essa linguagem como principal está sobrecarregado, a intimidade cai naturalmente.",
+          "spans": [
+            {
+              "text": "Atos de serviço: ",
+              "bold": true
+            },
+            {
+              "text": "Ajudar sem ser pedido, aliviar a carga do cônjuge. Quando quem tem essa linguagem como principal está sobrecarregado, a intimidade cai naturalmente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Presentes: Gestos e surpresas que comunicam que o cônjuge foi lembrado com carinho. Pequenos presentes no cotidiano alimentam o desejo de intimidade.",
+          "spans": [
+            {
+              "text": "Presentes: ",
+              "bold": true
+            },
+            {
+              "text": "Gestos e surpresas que comunicam que o cônjuge foi lembrado com carinho. Pequenos presentes no cotidiano alimentam o desejo de intimidade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Conversa Guiada sobre Intimidade"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente primeiro. Depois compartilhem com cuidado, ouvindo sem se defender nem minimizar o que o outro diz. Lembrem: o objetivo é criar segurança, não resolver tudo de uma vez."
+        },
+        {
+          "kind": "text",
+          "text": "Minha linguagem do amor principal é:"
+        },
+        {
+          "kind": "text",
+          "text": "O que mais me faz sentir desejado(a) e amado(a) pelo meu cônjuge é:"
+        },
+        {
+          "kind": "text",
+          "text": "O que tem dificultado a nossa intimidade ultimamente:"
+        },
+        {
+          "kind": "text",
+          "text": "Uma mudança pequena que faria grande diferença na nossa intimidade:"
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois compartilhem com respeito e ternura:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Como está a intimidade emocional entre vocês? Vocês se sentem seguros, vistos e desejados um pelo outro?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Qual é a sua linguagem do amor principal? O cônjuge a pratica com você? Você a pratica com seu cônjuge?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Como está a intimidade física em seu casamento? Há satisfação, frustração, saudade ou distância?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Há feridas passadas — traumas, decepções, pornografia, infidelidade — que ainda afetam a intimidade de vocês hoje?"
+        },
+        {
+          "kind": "text",
+          "text": "5. O que você precisaria receber do cônjuge para se sentir mais seguro(a) e aberto(a) na intimidade?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Há algo que você gostaria de comunicar sobre esse tema que ainda não teve coragem de dizer? Esta lição é o espaço para isso."
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Descubram ou confirmem a linguagem do amor principal do cônjuge e pratiquem-na intencionalmente todos os dias desta semana.",
+            "Planejem um encontro especial, sem filhos e sem distrações — não precisa ser elaborado. Pode ser uma caminhada, um jantar em casa, uma tarde juntos. O que importa é a presença plena.",
+            "Tenham a conversa guiada do exercício desta lição — com calma, abertura e sem pressa de resolver tudo.",
+            "Se a pornografia, um trauma ou outra ferida forem identificados como barreiras, comprometam-se juntos a buscar ajuda: um pastor, conselheiro ou recurso especializado. Não precisam carregar isso sozinhos.",
+            "Orem juntos pedindo a Deus que santifique, cure e fortaleça essa dimensão tão preciosa do casamento."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "week": 9,
+      "title": "Família, Filhos e Raízes",
+      "subtitle": "De onde viemos e o lar que estamos construindo",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "O casamento não existe em isolamento — ele está inserido em uma rede de relacionamentos: famílias de origem, filhos, amigos, comunidade de fé. Cada um desses círculos influencia o casamento, e o casamento influencia cada um deles."
+        },
+        {
+          "kind": "text",
+          "text": "Nesta lição, exploramos dois temas que se conectam profundamente: o impacto das famílias de origem no casamento de hoje e a construção intencional de um lar saudável para os filhos. Compreender de onde viemos é essencial para escolher conscientemente quem queremos ser."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Se a casa estiver dividida contra si mesma, essa casa não pode permanecer de pé.\" — Marcos 3:25"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Ensina a criança no caminho em que deve andar e, mesmo quando envelhecer, não se desviará dele.\" — Provérbios 22:6"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Pais, não exasperem os seus filhos; antes, criem-nos segundo a disciplina e a instrução do Senhor.\" — Efésios 6:4"
+        },
+        {
+          "kind": "quote",
+          "text": "\"E quanto a mim e à minha casa, serviremos ao Senhor.\" — Josué 24:15"
+        },
+        {
+          "kind": "heading",
+          "text": "O Impacto das Famílias de Origem"
+        },
+        {
+          "kind": "text",
+          "text": "A família em que crescemos é nossa primeira escola de relacionamento. Ali aprendemos — consciente ou inconscientemente — o que é amor, como se lida com conflito, o que é segurança emocional, como se expressa afeto, o que acontece quando alguém erra. Esses aprendizados se tornam programas que rodam automaticamente no casamento."
+        },
+        {
+          "kind": "text",
+          "text": "Isso não significa que estamos condenados a repetir o que foi vivido. Mas significa que precisamos conhecer esses padrões para fazer escolhas conscientes — decidir o que queremos continuar, o que precisamos curar e o que queremos deliberadamente romper."
+        },
+        {
+          "kind": "bullet",
+          "text": "Padrões saudáveis a reproduzir: Afeto demonstrado, conflito resolvido com diálogo, fé vivida em família, comprometimento, humor, hospitalidade.",
+          "spans": [
+            {
+              "text": "Padrões saudáveis a reproduzir: ",
+              "bold": true
+            },
+            {
+              "text": "Afeto demonstrado, conflito resolvido com diálogo, fé vivida em família, comprometimento, humor, hospitalidade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Padrões nocivos a romper: Violência verbal ou física, ausência emocional, segredos familiares, alcoolismo, perfeccionismo paralisante, comparações humilhantes, falta de perdão estrutural.",
+          "spans": [
+            {
+              "text": "Padrões nocivos a romper: ",
+              "bold": true
+            },
+            {
+              "text": "Violência verbal ou física, ausência emocional, segredos familiares, alcoolismo, perfeccionismo paralisante, comparações humilhantes, falta de perdão estrutural.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Padrões neutros a avaliar: Formas de celebrar, estilos de comunicação, hábitos financeiros, ritmos de lazer — que podem ser mantidos, adaptados ou substituídos conforme a nova família que vocês estão construindo.",
+          "spans": [
+            {
+              "text": "Padrões neutros a avaliar: ",
+              "bold": true
+            },
+            {
+              "text": "Formas de celebrar, estilos de comunicação, hábitos financeiros, ritmos de lazer — que podem ser mantidos, adaptados ou substituídos conforme a nova família que vocês estão construindo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Mapeando as Raízes"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente primeiro, sem ver a resposta do cônjuge. Depois compartilhem com curiosidade — não para julgar as famílias de origem, mas para se compreenderem melhor."
+        },
+        {
+          "kind": "text",
+          "text": "Na família em que cresci, conflitos eram tratados assim:"
+        },
+        {
+          "kind": "text",
+          "text": "Afeto e amor eram demonstrados assim (ou não eram demonstrados):"
+        },
+        {
+          "kind": "text",
+          "text": "O padrão da minha família de origem que mais aparece no nosso casamento (saudável ou não) é:"
+        },
+        {
+          "kind": "text",
+          "text": "Um padrão que quero deliberadamente romper para o bem do nosso lar:"
+        },
+        {
+          "kind": "heading",
+          "text": "O Casal em Primeiro Lugar"
+        },
+        {
+          "kind": "text",
+          "text": "Um dos maiores erros dos pais é colocar os filhos no centro do casamento. Os filhos precisam de pais presentes — mas precisam ainda mais de pais que se amam. Um casal unido é a melhor escola de vida que qualquer filho pode ter: ali aprende o que é compromisso, como se resolve conflito, o que significa perdoar, como se ama com constância."
+        },
+        {
+          "kind": "bullet",
+          "text": "Frente unida: Decisões sobre os filhos são tomadas em conjunto. Um filho jamais deve conseguir dividir os pais jogando um contra o outro.",
+          "spans": [
+            {
+              "text": "Frente unida: ",
+              "bold": true
+            },
+            {
+              "text": "Decisões sobre os filhos são tomadas em conjunto. Um filho jamais deve conseguir dividir os pais jogando um contra o outro.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Tempo de casal protegido: Continuem namorando — com ou sem filhos em casa. O investimento no casamento é o maior investimento nos filhos.",
+          "spans": [
+            {
+              "text": "Tempo de casal protegido: ",
+              "bold": true
+            },
+            {
+              "text": "Continuem namorando — com ou sem filhos em casa. O investimento no casamento é o maior investimento nos filhos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Modelo de amor visível: Demonstrem afeto um pelo outro na presença dos filhos. Abraços, palavras de respeito, momentos de alegria juntos. Eles aprenderão o que virem — para o bem ou para o mal.",
+          "spans": [
+            {
+              "text": "Modelo de amor visível: ",
+              "bold": true
+            },
+            {
+              "text": "Demonstrem afeto um pelo outro na presença dos filhos. Abraços, palavras de respeito, momentos de alegria juntos. Eles aprenderão o que virem — para o bem ou para o mal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Fé transmitida: A fé vivida no lar — oração conjunta, conversas sobre Deus, decisões baseadas em valores — é o maior legado espiritual que os pais podem deixar.",
+          "spans": [
+            {
+              "text": "Fé transmitida: ",
+              "bold": true
+            },
+            {
+              "text": "A fé vivida no lar — oração conjunta, conversas sobre Deus, decisões baseadas em valores — é o maior legado espiritual que os pais podem deixar.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam individualmente e depois conversem com abertura:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Qual padrão da sua família de origem você mais quer reproduzir no lar que vocês estão construindo?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Qual padrão herdado você reconhece em si mesmo que precisa ser quebrado — e que passos concretos você pode dar para isso?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Vocês estão alinhados sobre criação e disciplina dos filhos? Em que área há mais divergência ou tensão?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Os seus filhos veem o amor de vocês um pelo outro? Como isso poderia ser mais evidente no cotidiano?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Há tensões com as famílias de origem que afetam o casamento de vocês hoje — sogros, fronteiras, lealdades divididas? Como podem enfrentá-las juntos?"
+        },
+        {
+          "kind": "text",
+          "text": "6. Que legado espiritual e emocional vocês querem deixar para os seus filhos? Como o casamento de vocês contribui (ou pode contribuir mais) para isso?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Compartilhem o Exercício de Mapeamento das Raízes um com o outro — com curiosidade e sem julgamento. O objetivo é se compreender, não criticar as famílias de origem.",
+            "Planejem um momento especial de família esta semana — uma refeição, uma caminhada, um jogo — que fortaleça os vínculos e crie uma memória positiva.",
+            "Identifiquem juntos um padrão negativo herdado que querem romper e criem um acordo concreto sobre como agirão de modo diferente.",
+            "Orem juntos pelos filhos e pela família — e se possível, orem com os filhos, incluindo-os na fé do lar."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "week": 10,
+      "title": "Batalha Espiritual no Casamento",
+      "subtitle": "Reconhecendo, resistindo e lutando juntos",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "O casamento cristão tem um inimigo. Isso não é linguagem metafórica — é realidade bíblica. O diabo odeia o casamento porque ele é uma imagem viva do amor de Cristo pela Igreja. Por isso, ataques à família são frequentes, sutis e persistentes. Eles raramente chegam como tempestades visíveis — chegam como erosão gradual: a distância que vai crescendo sem ser nomeada, o ressentimento que vai endurecendo, a rotina que vai apagando a intimidade."
+        },
+        {
+          "kind": "text",
+          "text": "Reconhecer essa dimensão não é paranoia — é sabedoria. E a resposta não é medo, mas armamento. Casais que oram juntos, vivem na Palavra e permanecem em comunidade constroem uma fortaleza espiritual que o inimigo não consegue penetrar facilmente."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Vistam toda a armadura de Deus para que possam firmar-se contra as ciladas do diabo.\" — Efésios 6:11"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Sede sóbrios e vigilantes. O diabo, vosso adversário, anda em derredor, como leão que ruge, procurando alguém para devorar.\" — 1 Pedro 5:8"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Resistam ao diabo, e ele fugirá de vocês.\" — Tiago 4:7"
+        },
+        {
+          "kind": "heading",
+          "text": "Principais Ataques Espirituais ao Casamento"
+        },
+        {
+          "kind": "bullet",
+          "text": "Pornografia e tentação sexual: Um dos maiores sabotadores do casamento cristão contemporâneo. Opera na escuridão, cria vergonha, distorce a intimidade real e corrói a confiança. Requer transparência e responsabilidade — não silêncio.",
+          "spans": [
+            {
+              "text": "Pornografia e tentação sexual: ",
+              "bold": true
+            },
+            {
+              "text": "Um dos maiores sabotadores do casamento cristão contemporâneo. Opera na escuridão, cria vergonha, distorce a intimidade real e corrói a confiança. Requer transparência e responsabilidade — não silêncio.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Infidelidade emocional e física: Frequentemente começa como uma amizade inocente que cruza fronteiras gradualmente. Atenção especial a relacionamentos de trabalho, redes sociais e conversas íntimas com pessoas do sexo oposto fora do casamento.",
+          "spans": [
+            {
+              "text": "Infidelidade emocional e física: ",
+              "bold": true
+            },
+            {
+              "text": "Frequentemente começa como uma amizade inocente que cruza fronteiras gradualmente. Atenção especial a relacionamentos de trabalho, redes sociais e conversas íntimas com pessoas do sexo oposto fora do casamento.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Isolamento da comunidade: O inimigo prefere casais sozinhos, sem amigos, sem mentores, sem apoio e prestação de contas. Casais sem comunidade são muito mais vulneráveis.",
+          "spans": [
+            {
+              "text": "Isolamento da comunidade: ",
+              "bold": true
+            },
+            {
+              "text": "O inimigo prefere casais sozinhos, sem amigos, sem mentores, sem apoio e prestação de contas. Casais sem comunidade são muito mais vulneráveis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Orgulho e teimosia: A incapacidade de dizer eu errei ou eu preciso de ajuda pode destruir o que o amor construiu. O orgulho é um dos aliados mais eficientes do inimigo.",
+          "spans": [
+            {
+              "text": "Orgulho e teimosia: ",
+              "bold": true
+            },
+            {
+              "text": "A incapacidade de dizer eu errei ou eu preciso de ajuda pode destruir o que o amor construiu. O orgulho é um dos aliados mais eficientes do inimigo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Amargura e falta de perdão: Raízes de amargura envenenam o casamento por dentro. O que não é perdoado se torna prisão para quem guarda a mágoa.",
+          "spans": [
+            {
+              "text": "Amargura e falta de perdão: ",
+              "bold": true
+            },
+            {
+              "text": "Raízes de amargura envenenam o casamento por dentro. O que não é perdoado se torna prisão para quem guarda a mágoa.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Distração e afastamento gradual: O cotidiano — trabalho, filhos, celular, cansaço — pode criar uma separação silenciosa que vai crescendo sem ser percebida até que o abismo seja grande.",
+          "spans": [
+            {
+              "text": "Distração e afastamento gradual: ",
+              "bold": true
+            },
+            {
+              "text": "O cotidiano — trabalho, filhos, celular, cansaço — pode criar uma separação silenciosa que vai crescendo sem ser percebida até que o abismo seja grande.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Influências negativas externas: Amigos que incentivam comportamentos destrutivos, famílias que minam o casamento, entretenimento que normaliza o que Deus chama de pecado.",
+          "spans": [
+            {
+              "text": "Influências negativas externas: ",
+              "bold": true
+            },
+            {
+              "text": "Amigos que incentivam comportamentos destrutivos, famílias que minam o casamento, entretenimento que normaliza o que Deus chama de pecado.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "A Armadura de Deus Aplicada ao Casamento"
+        },
+        {
+          "kind": "text",
+          "text": "Efésios 6:13-18 descreve a armadura de Deus — um conjunto de proteções espirituais que cada crente deve vestir. Aplicada ao casamento, ela ganha uma poderosa dimensão conjugal. Não é uma armadura individual — é uma armadura que o casal veste junto."
+        },
+        {
+          "kind": "bullet",
+          "text": "Cinto da Verdade: Transparência total no casamento. Sem segredos, sem mentiras, sem meias-verdades. A verdade protege — o encobrimento expõe. Apliquem: conversem abertamente sobre tentações, vulnerabilidades e áreas de dificuldade.",
+          "spans": [
+            {
+              "text": "Cinto da Verdade: ",
+              "bold": true
+            },
+            {
+              "text": "Transparência total no casamento. Sem segredos, sem mentiras, sem meias-verdades. A verdade protege — o encobrimento expõe. Apliquem: conversem abertamente sobre tentações, vulnerabilidades e áreas de dificuldade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Couraça da Justiça: Integridade de caráter no dia a dia — no trabalho, nas finanças, nas amizades. Um cônjuge íntegro é um cônjuge seguro. Apliquem: mantenham acordos, honrem compromissos, sejam quem dizem ser.",
+          "spans": [
+            {
+              "text": "Couraça da Justiça: ",
+              "bold": true
+            },
+            {
+              "text": "Integridade de caráter no dia a dia — no trabalho, nas finanças, nas amizades. Um cônjuge íntegro é um cônjuge seguro. Apliquem: mantenham acordos, honrem compromissos, sejam quem dizem ser.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Calçados do Evangelho: O propósito que move o casal além de si mesmo. Um casamento com missão tem direção. Apliquem: cultivem juntos um senso de propósito maior — servir, alcançar, contribuir.",
+          "spans": [
+            {
+              "text": "Calçados do Evangelho: ",
+              "bold": true
+            },
+            {
+              "text": "O propósito que move o casal além de si mesmo. Um casamento com missão tem direção. Apliquem: cultivem juntos um senso de propósito maior — servir, alcançar, contribuir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Escudo da Fé: Confiança ativa em Deus diante das circunstâncias difíceis. Quando um cônjuge fraqueja, o outro sustenta. Apliquem: orem juntos especialmente nas crises — não apenas nas rotinas de paz.",
+          "spans": [
+            {
+              "text": "Escudo da Fé: ",
+              "bold": true
+            },
+            {
+              "text": "Confiança ativa em Deus diante das circunstâncias difíceis. Quando um cônjuge fraqueja, o outro sustenta. Apliquem: orem juntos especialmente nas crises — não apenas nas rotinas de paz.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Capacete da Salvação: Identidade segura em Cristo que não depende do desempenho, da aprovação do cônjuge ou das circunstâncias. Apliquem: quando o casamento estiver difícil, lembrem-se de quem vocês são em Deus — não apenas de como estão se sentindo.",
+          "spans": [
+            {
+              "text": "Capacete da Salvação: ",
+              "bold": true
+            },
+            {
+              "text": "Identidade segura em Cristo que não depende do desempenho, da aprovação do cônjuge ou das circunstâncias. Apliquem: quando o casamento estiver difícil, lembrem-se de quem vocês são em Deus — não apenas de como estão se sentindo.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Espada do Espírito: A Palavra de Deus como arma e guia. Apliquem: leiam a Bíblia juntos regularmente. Versículos memorizados juntos se tornam âncoras nas tempestades.",
+          "spans": [
+            {
+              "text": "Espada do Espírito: ",
+              "bold": true
+            },
+            {
+              "text": "A Palavra de Deus como arma e guia. Apliquem: leiam a Bíblia juntos regularmente. Versículos memorizados juntos se tornam âncoras nas tempestades.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "bullet",
+          "text": "Oração em todo tempo: A comunicação direta com Deus como hábito conjugal. Casais que oram juntos não apenas sobrevivem às crises — elas os aproximam de Deus e um do outro.",
+          "spans": [
+            {
+              "text": "Oração em todo tempo: ",
+              "bold": true
+            },
+            {
+              "text": "A comunicação direta com Deus como hábito conjugal. Casais que oram juntos não apenas sobrevivem às crises — elas os aproximam de Deus e um do outro.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "Exercício: Oração de Cobertura do Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Façam isso juntos agora: sentem-se frente a frente, segurem as mãos e orem em voz alta — cada um intercedendo pelo cônjuge. Incluam na oração:"
+        },
+        {
+          "kind": "bullet",
+          "text": "Gratidão por um dom específico que veem no cônjuge"
+        },
+        {
+          "kind": "bullet",
+          "text": "Pedido de proteção sobre a área onde o casamento está mais vulnerável"
+        },
+        {
+          "kind": "bullet",
+          "text": "Declaração de confiança em Deus sobre o futuro do casamento de vocês"
+        },
+        {
+          "kind": "text",
+          "text": "Se nunca oraram juntos dessa forma, pode ser desconfortável no início. Permaneçam. O desconforto passa; a intimidade espiritual que se constrói é duradoura."
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam com honestidade — e com fé:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Em que área o inimigo tem conseguido mais acesso ao casamento de vocês — distração, isolamento, mágoa, tentação, orgulho?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Vocês têm lutado juntos ou um contra o outro? O que precisaria mudar para lutar mais como aliados?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Há segredos no casamento — hábitos, tentações, históricos — que precisam ser trazidos à luz com segurança e graça?"
+        },
+        {
+          "kind": "text",
+          "text": "4. Qual peça da Armadura de Deus vocês sentem que mais precisam vestir juntos nesta temporada?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Que proteção concreta — espiritual, relacional ou prática — vocês precisam reforçar imediatamente?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Orem juntos com imposição de mãos um no outro todos os dias desta semana — pedindo proteção, cobertura e direção sobre o casamento.",
+            "Estabeleçam um acordo de transparência digital: senhas compartilhadas, conversas abertas sobre uso de redes sociais, sem segredos em dispositivos.",
+            "Identifiquem uma influência negativa — conteúdo, amizade, hábito — que precisa ser afastada do casamento. Tomem uma decisão juntos.",
+            "Busquem um casal mentor ou grupo de casais na igreja para fortalecer o suporte espiritual e a prestação de contas e o apoio mútuo no relacionamento."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "week": 11,
+      "title": "Propósito e Missão do Casal",
+      "subtitle": "O que Deus nos chamou a fazer juntos?",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Todo casal cristão tem uma missão. O casamento não é um destino — é uma plataforma de lançamento. Deus não une duas pessoas apenas para que sejam felizes juntas (embora isso seja precioso), mas para que juntas façam a diferença no mundo que as cerca."
+        },
+        {
+          "kind": "text",
+          "text": "Descobrir o propósito conjunto é um dos exercícios mais transformadores que um casal pode fazer. Mas propósito não cai do céu pronto — ele é descoberto na interseção entre os dons de cada um, as paixões que movem o coração, as histórias que moldam a vida e as necessidades do mundo à volta. Esta lição é um roteiro para essa descoberta."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Porque somos criação de Deus, criados em Cristo Jesus para fazer boas obras, as quais Deus preparou de antemão para nós as praticarmos.\" — Efésios 2:10"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Buscai primeiro o Reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.\" — Mateus 6:33"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Como cada um recebeu um dom, use-o para servir os outros, como bons administradores da multiforme graça de Deus.\" — 1 Pedro 4:10"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Dois são melhores do que um, porque têm melhor paga do seu trabalho.\" — Eclesiastes 4:9"
+        },
+        {
+          "kind": "heading",
+          "text": "Por Que o Propósito Conjunto Importa?"
+        },
+        {
+          "kind": "text",
+          "text": "Casais sem propósito compartilhado tendem a se tornar dois projetos individuais que coabitam — paralelos, mas não convergentes. Com o tempo, a falta de uma visão comum gera deriva, tédio e a sensação de que o casamento serve apenas à sobrevivência cotidiana."
+        },
+        {
+          "kind": "text",
+          "text": "Quando um casal descobre e abraça um propósito conjunto — seja ele pequeno ou grande — algo muda. O casamento deixa de ser um fim em si mesmo e se torna parte de algo maior. Isso não apenas dá direção: dá combustível para atravessar os momentos difíceis."
+        },
+        {
+          "kind": "heading",
+          "text": "Método em 3 Etapas para Descobrir o Propósito Conjunto"
+        },
+        {
+          "kind": "subheading",
+          "text": "Etapa 1 — Dons e Habilidades Individuais"
+        },
+        {
+          "kind": "text",
+          "text": "Cada cônjuge traz para o casamento um conjunto único de dons, talentos e habilidades. Antes de descobrirem o propósito conjunto, precisam mapear o que cada um traz individualmente."
+        },
+        {
+          "kind": "text",
+          "text": "Meus dons e habilidades que Deus me deu (espirituais, naturais, aprendidos):"
+        },
+        {
+          "kind": "text",
+          "text": "Os dons e habilidades que reconheço no meu cônjuge:"
+        },
+        {
+          "kind": "text",
+          "text": "Como nossos dons se complementam — onde um supre o que o outro não tem:"
+        },
+        {
+          "kind": "subheading",
+          "text": "Etapa 2 — Paixões e Histórias"
+        },
+        {
+          "kind": "text",
+          "text": "O propósito muitas vezes está escondido nas paixões — o que faz o coração acelerar — e nas histórias de dor curada. Frequentemente somos chamados a curar em outros o que Deus curou em nós."
+        },
+        {
+          "kind": "text",
+          "text": "O que nos move profundamente — causas, pessoas, problemas que nos importam:"
+        },
+        {
+          "kind": "text",
+          "text": "Uma dor ou dificuldade que vivemos e que Deus usou para nos transformar:"
+        },
+        {
+          "kind": "text",
+          "text": "Qual grupo de pessoas ou necessidade do mundo mais toca o nosso coração:"
+        },
+        {
+          "kind": "subheading",
+          "text": "Etapa 3 — A Declaração de Propósito"
+        },
+        {
+          "kind": "text",
+          "text": "Com as respostas das etapas 1 e 2 em mãos, tentem completar juntos a frase abaixo. Não precisa ser perfeita — pode ser revisada. O que importa é começar a nomear o que Deus está fazendo por meio de vocês, como casal."
+        },
+        {
+          "kind": "text",
+          "text": "Nossa declaração de propósito como casal:"
+        },
+        {
+          "kind": "text",
+          "text": "Nós existimos como casal para..."
+        },
+        {
+          "kind": "text",
+          "text": "...usando nossos dons de..."
+        },
+        {
+          "kind": "text",
+          "text": "...para impactar..."
+        },
+        {
+          "kind": "heading",
+          "text": "Do Propósito ao Passo Seguinte"
+        },
+        {
+          "kind": "text",
+          "text": "Propósito sem ação é apenas intenção. Casais com missão clara ainda assim procrastinam quando o primeiro passo parece grande demais. A chave é começar pequeno — um passo concreto e factível nos próximos 90 dias."
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Respondam e compartilhem com entusiasmo e realismo:"
+        },
+        {
+          "kind": "text",
+          "text": "1. Quais experiências de vida de vocês dois — alegrias e dores — se complementam de forma única e poderiam ser usadas para ajudar outras pessoas?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Se vocês tivessem tempo e recursos livres por um mês, o que fariam juntos para servir, criar ou contribuir?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Que impacto vocês querem ter — na família, na igreja, na comunidade ou no mundo — durante o casamento de vocês?"
+        },
+        {
+          "kind": "text",
+          "text": "4. O que tem impedido vocês de viver um propósito conjunto mais claro? É falta de tempo, clareza, coragem ou alinhamento?"
+        },
+        {
+          "kind": "text",
+          "text": "5. Qual é o primeiro passo concreto e pequeno que vocês podem dar nos próximos 30 dias em direção ao propósito de vocês?"
+        },
+        {
+          "kind": "heading",
+          "text": "Desafio da Semana"
+        },
+        {
+          "kind": "challenge",
+          "items": [
+            "Pesquisem juntos sobre dons espirituais e façam um teste de dons disponível online. Compartilhem os resultados e discutam como se complementam.",
+            "Completem as 3 etapas do Método de Propósito desta lição e escrevam uma versão inicial da Declaração de Propósito do Casal.",
+            "Coloquem a Declaração de Propósito em um lugar visível — na geladeira, no espelho, na parede. Revisitem-na mensalmente.",
+            "Identifiquem um primeiro passo concreto — um serviço, um ministério, uma causa — e deem esse passo ainda esta semana."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "week": 12,
+      "title": "Renovação e Compromisso",
+      "subtitle": "Amor que não desiste — de agora em diante",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Chegamos ao fim desta jornada de 12 semanas — mas este é apenas o começo. Tudo o que aprenderam, discutiram, praticaram e descobriram ao longo deste curso foi semente plantada em solo fértil. O crescimento que virá depende da fidelidade de vocês em continuar regando essas sementes — dia após dia, escolha após escolha."
+        },
+        {
+          "kind": "text",
+          "text": "Nesta última lição, fazemos três coisas: celebramos o caminho percorrido, renovamos o compromisso de forma concreta e olhamos para o futuro com esperança e determinação. O melhor do casamento de vocês ainda está por vir."
+        },
+        {
+          "kind": "heading",
+          "text": "Princípios Bíblicos"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Porque eu bem sei os planos que tenho para vocês, diz o Senhor, planos de fazê-los prosperar e não de causar dano, planos de dar-lhes esperança e um futuro.\" — Jeremias 29:11"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O amor jamais acaba.\" — 1 Coríntios 13:8"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Esqueço o que ficou para trás e me esforço para alcançar o que está adiante.\" — Filipenses 3:13"
+        },
+        {
+          "kind": "heading",
+          "text": "Olhando para Trás — Celebrando o Caminho"
+        },
+        {
+          "kind": "text",
+          "text": "Antes de olharem para frente, parem para celebrar. Não é modéstia espiritual ignorar o que foi feito — é gratidão e memória saudável. Cada um responda individualmente e depois compartilhe:"
+        },
+        {
+          "kind": "text",
+          "text": "O que aprendi sobre mim mesmo(a) neste curso:"
+        },
+        {
+          "kind": "text",
+          "text": "O que aprendi sobre o meu cônjuge que não sabia ou não tinha percebido:"
+        },
+        {
+          "kind": "text",
+          "text": "A lição mais impactante para mim foi a Lição ___ sobre:"
+        },
+        {
+          "kind": "text",
+          "text": "A mudança concreta mais significativa que este curso gerou no nosso relacionamento:"
+        },
+        {
+          "kind": "text",
+          "text": "O tema mais difícil de trabalhar foi:"
+        },
+        {
+          "kind": "text",
+          "text": "Sou mais grato(a) a Deus por:"
+        },
+        {
+          "kind": "heading",
+          "text": "Olhando para Frente — Compromissos Concretos"
+        },
+        {
+          "kind": "text",
+          "text": "Escrevam juntos três compromissos concretos que assumem para o casamento daqui para frente. Sejam específicos — compromissos vagos se dissolvem; compromissos concretos transformam."
+        },
+        {
+          "kind": "text",
+          "text": "Compromisso 1: _____________________________________________",
+          "spans": [
+            {
+              "text": "Compromisso 1: ",
+              "bold": true
+            },
+            {
+              "text": "_____________________________________________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Como vamos manter este compromisso:"
+        },
+        {
+          "kind": "text",
+          "text": "Compromisso 2: _____________________________________________",
+          "spans": [
+            {
+              "text": "Compromisso 2: ",
+              "bold": true
+            },
+            {
+              "text": "_____________________________________________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Como vamos manter este compromisso:"
+        },
+        {
+          "kind": "text",
+          "text": "Compromisso 3: _____________________________________________",
+          "spans": [
+            {
+              "text": "Compromisso 3: ",
+              "bold": true
+            },
+            {
+              "text": "_____________________________________________",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Como vamos manter este compromisso:"
+        },
+        {
+          "kind": "heading",
+          "text": "Reflexão em Casal"
+        },
+        {
+          "kind": "text",
+          "text": "Perguntas finais — respondam individualmente e depois compartilhem de coração aberto:"
+        },
+        {
+          "kind": "text",
+          "text": "1. O que mais tocou você em seu cônjuge ao longo dessas 12 semanas — algo que percebeu e pelo qual quer agradecer?"
+        },
+        {
+          "kind": "text",
+          "text": "2. Em que área você ainda sente que precisa crescer como cônjuge — com honestidade e sem autopunição?"
+        },
+        {
+          "kind": "text",
+          "text": "3. Qual é a maior esperança que você carrega para o casamento de vocês daqui a 5 anos?"
+        },
+        {
+          "kind": "text",
+          "text": "4. O que você quer dizer ao cônjuge agora — algo que o curso lhe deu coragem de dizer?"
+        },
+        {
+          "kind": "heading",
+          "text": "Ritual de Encerramento — Dois Minutos de Verdade"
+        },
+        {
+          "kind": "text",
+          "text": "Antes da renovação dos votos, façam este ritual simples e poderoso: sentem-se frente a frente, olhando nos olhos. O marido fala por 2 minutos — sem interrupção — dizendo ao cônjuge o que este curso significou para ele e o que sente hoje. Depois a esposa faz o mesmo. O ouvinte apenas recebe — sem responder, sem comentar, sem minimizar. Apenas acolhe."
+        },
+        {
+          "kind": "text",
+          "text": "Deixem que as palavras se assentem. Fiquem em silêncio por 30 segundos depois de cada fala. Esse silêncio tem poder."
+        },
+        {
+          "kind": "heading",
+          "text": "Carta de Amor"
+        },
+        {
+          "kind": "text",
+          "text": "Cada um escreva uma carta de amor ao cônjuge — à mão, no papel — expressando gratidão, amor, esperança e compromisso. Troquem as cartas neste encontro final. Guardem-nas para ler novamente em cada aniversário de casamento."
+        },
+        {
+          "kind": "heading",
+          "text": "Renovação dos Votos"
+        },
+        {
+          "kind": "text",
+          "text": "Terminem este encontro com uma renovação simbólica dos votos — de pé, de mãos dadas, olhando nos olhos. Podem usar as palavras abaixo ou criar as suas próprias:"
+        },
+        {
+          "kind": "quote",
+          "text": "\"Eu, [nome], renovo hoje meu compromisso com você. Escolho amar, respeitar, perdoar e crescer ao seu lado — nas alegrias e tristezas, na abundância e na necessidade. Serei fiel a você e ao Deus que nos uniu. O amor que tenho por você não desiste — hoje, amanhã e sempre.\""
+        },
+        {
+          "kind": "heading",
+          "text": "Bênção Final"
+        },
+        {
+          "kind": "quote",
+          "text": "\"O Senhor te abençoe e te guarde; o Senhor faça resplandecer o seu rosto sobre ti e seja gracioso para contigo; o Senhor volte o seu rosto para ti e te conceda paz.\" — Números 6:24-26"
+        },
+        {
+          "kind": "text",
+          "text": "Que Deus abençoe o casamento de vocês ricamente. Que o amor que Ele plantou em seus corações continue crescendo, florescendo e dando fruto — para a glória dEle e a alegria de vocês. E que, daqui a muitos anos, vocês olhem um para o outro e digam: valeu a pena. Cada semana. Cada conversa difícil. Cada escolha de amar."
+        }
+      ]
+    }
+  ],
+  "support": [
+    {
+      "kind": "text",
+      "text": "Referências e Leituras Recomendadas"
+    },
+    {
+      "kind": "text",
+      "text": "Para continuar crescendo"
+    },
+    {
+      "kind": "heading",
+      "text": "Bíblia"
+    },
+    {
+      "kind": "bullet",
+      "text": "Bíblia Sagrada — Nova Versão Internacional (NVI)"
+    },
+    {
+      "kind": "bullet",
+      "text": "Bíblia de Estudo para Casais — Editora Vida"
+    },
+    {
+      "kind": "heading",
+      "text": "Livros Recomendados"
+    },
+    {
+      "kind": "bullet",
+      "text": "As 5 Linguagens do Amor: Gary Chapman — Editora Mundo Cristão",
+      "spans": [
+        {
+          "text": "As 5 Linguagens do Amor: ",
+          "bold": true
+        },
+        {
+          "text": "Gary Chapman — Editora Mundo Cristão",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Salve o Seu Casamento Antes que Comece: Les e Leslie Parrott — Editora Mundo Cristão",
+      "spans": [
+        {
+          "text": "Salve o Seu Casamento Antes que Comece: ",
+          "bold": true
+        },
+        {
+          "text": "Les e Leslie Parrott — Editora Mundo Cristão",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "7 Princípios para um Casamento Funcionar: John Gottman e Nan Silver — Editora Objetiva",
+      "spans": [
+        {
+          "text": "7 Princípios para um Casamento Funcionar: ",
+          "bold": true
+        },
+        {
+          "text": "John Gottman e Nan Silver — Editora Objetiva",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Casados Para Sempre: Jimmy e Karen Evans — MMI Brasil",
+      "spans": [
+        {
+          "text": "Casados Para Sempre: ",
+          "bold": true
+        },
+        {
+          "text": "Jimmy e Karen Evans — MMI Brasil",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Amor e Respeito: Emerson Eggerichs — Editora Mundo Cristão",
+      "spans": [
+        {
+          "text": "Amor e Respeito: ",
+          "bold": true
+        },
+        {
+          "text": "Emerson Eggerichs — Editora Mundo Cristão",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "O Homem que Ela Quer: Stephen Arterburn e Fred Stoeker",
+      "spans": [
+        {
+          "text": "O Homem que Ela Quer: ",
+          "bold": true
+        },
+        {
+          "text": "Stephen Arterburn e Fred Stoeker",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "A Mulher que Ele Quer: Shannon Ethridge e Stephen Arterburn",
+      "spans": [
+        {
+          "text": "A Mulher que Ele Quer: ",
+          "bold": true
+        },
+        {
+          "text": "Shannon Ethridge e Stephen Arterburn",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Finanças que Honram a Deus: Ron Blue — Editora Mundo Cristão",
+      "spans": [
+        {
+          "text": "Finanças que Honram a Deus: ",
+          "bold": true
+        },
+        {
+          "text": "Ron Blue — Editora Mundo Cristão",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "A Batalha de Todo Homem: Stephen Arterburn — Editora Mundo Cristão",
+      "spans": [
+        {
+          "text": "A Batalha de Todo Homem: ",
+          "bold": true
+        },
+        {
+          "text": "Stephen Arterburn — Editora Mundo Cristão",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Recursos Online"
+    },
+    {
+      "kind": "bullet",
+      "text": "MMI Brasil — www.mmibrasil.com.br"
+    },
+    {
+      "kind": "bullet",
+      "text": "Focus on the Family Brasil — recursos para casais cristãos"
+    },
+    {
+      "kind": "bullet",
+      "text": "Instituto Família — materiais e cursos para casais"
+    },
+    {
+      "kind": "heading",
+      "text": "Próximos Passos"
+    },
+    {
+      "kind": "text",
+      "text": "Este curso foi um ponto de partida. Para continuarem crescendo como casal:"
+    },
+    {
+      "kind": "bullet",
+      "text": "Conselheiro pastoral: Caso enfrentem desafios sérios, busquem um pastor ou conselheiro cristão.",
+      "spans": [
+        {
+          "text": "Conselheiro pastoral: ",
+          "bold": true
+        },
+        {
+          "text": "Caso enfrentem desafios sérios, busquem um pastor ou conselheiro cristão.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Grupo de casais: Participem ativamente de um grupo de casais na sua igreja.",
+      "spans": [
+        {
+          "text": "Grupo de casais: ",
+          "bold": true
+        },
+        {
+          "text": "Participem ativamente de um grupo de casais na sua igreja.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Retiro de casais: Participem de um retiro anual — é um investimento que transforma.",
+      "spans": [
+        {
+          "text": "Retiro de casais: ",
+          "bold": true
+        },
+        {
+          "text": "Participem de um retiro anual — é um investimento que transforma.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "bullet",
+      "text": "Mentoria: Busquem um casal mais experiente para mentorá-los. E um dia, façam o mesmo por outros.",
+      "spans": [
+        {
+          "text": "Mentoria: ",
+          "bold": true
+        },
+        {
+          "text": "Busquem um casal mais experiente para mentorá-los. E um dia, façam o mesmo por outros.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "Apostila desenvolvida com base no material \"Casados Para Sempre\" (MMI) e em princípios bíblicos de aconselhamento conjugal cristão."
+    }
+  ]
+}
