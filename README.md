@@ -1,9 +1,9 @@
-Testes para Casais — Família Penha
+Curso de Casais Aliança — Família Penha
 Versão com cadastro, login, banco e painel administrativo
 Esta edição é um WebApp instalável em Android e iPhone (PWA) COM SERVIDOR. Não é um HTML para abrir no gerenciador de arquivos. Acesse via URL HTTPS após publicar.
 O que foi entregue
-Cabeçalho fixo de altura compacta com pequeno banner fotográfico, ícone maior e marca tipográfica Testes para Casais.
-Home com os dois testes: Termômetro da Intimidade (16 afirmações/8 áreas, escala 1–5) e 5 Linguagens do Amor (30 escolhas).
+Cabeçalho do Curso de Casais Aliança com navegação para Início, Curso e Testes.
+Home com duas áreas, Curso (12 aulas com conteúdo integral da apostila revisada, acessível após login) e Testes: Termômetro da Intimidade (16 afirmações/8 áreas, escala 1–5) e 5 Linguagens do Amor (30 escolhas).
 Cadastro individual obrigatório antes do teste, com nome completo, celular com DDD, versão masculina/feminina, senha e concordância com a finalidade do armazenamento.
 Login pelo número de celular, senha armazenada com PBKDF2-HMAC-SHA256 e sessão por cookie assinado.
 Salva respostas e progresso no banco do servidor. O participante pode sair e continuar de outro celular após login.

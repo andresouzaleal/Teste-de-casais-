@@ -30,7 +30,7 @@ IS_PRODUCTION = os.getenv('APP_ENV', '').lower() == 'production'
 if IS_PRODUCTION and not os.getenv('SESSION_SECRET'):
     raise RuntimeError('Defina SESSION_SECRET antes de executar em produção.')
 
-app = FastAPI(title='Teste para Casais', docs_url=None, redoc_url=None, openapi_url=None)
+app = FastAPI(title='Curso de Casais Aliança', docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
                    session_cookie='casais_session', max_age=604800,
                    same_site='lax', https_only=IS_PRODUCTION)
@@ -39,6 +39,7 @@ app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
 PUBLIC_ASSETS = {
     'casal-carinho.webp', 'casal-conversa.webp', 'familia-penha.png',
     'icon-192.png', 'icon-512.png', 'icon.svg',
+    'logo-alianca-original.png', 'alianca-home.webp', 'alianca-curso.webp', 'alianca-testes.webp',
 }
 
 @app.get('/assets/{filename}')
@@ -264,10 +265,10 @@ def issue_account_email(user_id: int, purpose: str):
     message = EmailMessage()
     message['From'] = os.environ['SMTP_FROM']
     message['To'] = user['email']
-    message['Subject'] = 'Redefinir sua senha · Testes para Casais' if purpose == 'reset' else 'Confirme seu e-mail · Testes para Casais'
+    message['Subject'] = 'Redefinir sua senha · Curso de Casais Aliança' if purpose == 'reset' else 'Confirme seu e-mail · Curso de Casais Aliança'
     action = 'escolher uma nova senha' if purpose == 'reset' else 'confirmar seu e-mail para recuperar sua conta'
     validity = '30 minutos' if purpose == 'reset' else '24 horas'
-    message.set_content(f'Olá!\n\nAcesse o link para {action}:\n{link}\n\nO link vale por {validity} e só pode ser usado uma vez.\nSe você não fez essa solicitação, ignore esta mensagem.\n\nTestes para Casais · Família Penha')
+    message.set_content(f'Olá!\n\nAcesse o link para {action}:\n{link}\n\nO link vale por {validity} e só pode ser usado uma vez.\nSe você não fez essa solicitação, ignore esta mensagem.\n\nCurso de Casais Aliança · Família Penha')
     try:
         use_ssl = os.getenv('SMTP_SSL', '').lower() == 'true'
         client = smtplib.SMTP_SSL if use_ssl else smtplib.SMTP
@@ -546,6 +547,12 @@ def export(q: str='', user=Depends(admin_user)):
         writer.writerow([safe(r['name']),safe(r['phone']),r['gender'],r['created_at'],r['last_login_at'],count(r['ti']),count(r['la'])])
     data='\ufeff'+stream.getvalue()
     return StreamingResponse(iter([data]),media_type='text/csv; charset=utf-8',headers={'Content-Disposition':'attachment; filename="cadastros_casais.csv"','Cache-Control':'no-store'})
+
+@app.get('/api/course')
+def course_material(user=Depends(current_user)):
+    """Material didático disponível apenas para participantes autenticados."""
+    return FileResponse(ROOT / 'curso_alianca_12_aulas.json', media_type='application/json',
+                        headers={'Cache-Control': 'private, no-store'})
 
 @app.get('/health')
 def health():
