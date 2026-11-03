@@ -197,3 +197,20 @@ html{scroll-padding-top:112px}body{background:#faf7f4}.site-header{position:stic
 .site-header .header-inner{flex:1 0 100%}
 .app-sections-nav{flex:1 0 100%;box-sizing:border-box;width:100%}
 .app-sections-nav button{white-space:nowrap}
+
+/* Rodapé com o logo da Família Penha */
+.site-footer{align-items:center}
+.footer-brand{display:inline-flex;flex:0 0 auto}
+.footer-logo{display:block;width:72px;height:72px;object-fit:contain;opacity:.9}
+@media(max-width:700px){.footer-brand{margin-bottom:10px}.footer-logo{width:64px;height:64px}}
+
+/* Respostas da Reflexão em Casal */
+.lesson-answer{margin:4px 0 22px;padding:14px 16px;border:1px solid #e8dedf;border-radius:14px;background:#fbf8f5}
+.lesson-answer.saved{background:#f6f1f6;border-color:#e3d6e3}
+.lesson-answer-label{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:8px}
+.lesson-answer textarea{width:100%;box-sizing:border-box;min-height:96px;resize:vertical;border:1px solid #dccfd7;border-radius:10px;padding:11px 12px;font:inherit;font-size:15px;line-height:1.6;color:var(--ink);background:#fff}
+.lesson-answer textarea:focus{outline:3px solid rgba(215,167,108,.35);border-color:var(--gold)}
+.lesson-answer-text{margin:0 0 10px;white-space:pre-wrap;font-size:15px;line-height:1.7;color:var(--ink)}
+.lesson-answer-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.lesson-answer-delete{color:var(--red)}
+@media print{.lesson-answer-actions{display:none}.lesson-answer textarea{border:0}}

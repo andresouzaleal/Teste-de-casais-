@@ -39,7 +39,7 @@ app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
 PUBLIC_ASSETS = {
     'casal-carinho.webp', 'casal-conversa.webp', 'familia-penha.png',
     'icon-192.png', 'icon-512.png', 'icon.svg',
-    'logo-alianca-original.png', 'alianca-home.webp', 'alianca-curso.webp', 'alianca-testes.webp',
+    'logo-alianca-original.png', 'familia-penha-escuro.png', 'alianca-home.webp', 'alianca-curso.webp', 'alianca-testes.webp',
 }
 
 @app.get('/assets/{filename}')
@@ -100,6 +100,14 @@ def init_db():
             email TEXT NOT NULL,
             session_version INTEGER NOT NULL,
             expires_at INTEGER NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS lesson_answers (
+            user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+            lesson_number INTEGER NOT NULL CHECK(lesson_number BETWEEN 1 AND 12),
+            question_id INTEGER NOT NULL,
+            answer TEXT NOT NULL,
+            updated_at TEXT NOT NULL,
+            PRIMARY KEY (user_id, lesson_number, question_id)
         );
         ''')
         columns = {row['name'] for row in con.execute('PRAGMA table_info(users)')}
@@ -553,6 +561,70 @@ def course_material(user=Depends(current_user)):
     """Material didático disponível apenas para participantes autenticados."""
     return FileResponse(ROOT / 'curso_alianca_12_aulas.json', media_type='application/json',
                         headers={'Cache-Control': 'private, no-store'})
+
+# Perguntas da "Reflexão em Casal" de cada aula. O id é a posição do bloco na lição,
+# então continua válido enquanto o JSON da apostila não for reorganizado.
+COURSE_FILE = ROOT / 'curso_alianca_12_aulas.json'
+MAX_ANSWER_CHARS = 5000
+
+def load_course_questions():
+    try:
+        data = json.loads(COURSE_FILE.read_text('utf-8'))
+    except (OSError, ValueError):
+        return {}
+    out = {}
+    for lesson in data.get('lessons', []):
+        number, heading, ids = int(lesson['number']), '', set()
+        for idx, block in enumerate(lesson.get('blocks', [])):
+            if block.get('kind') == 'heading':
+                heading = block.get('text', '')
+            elif heading.startswith('Reflexão') and block.get('kind') in ('text', 'bullet') \
+                    and re.match(r'^\d+[.)]\s', block.get('text', '')):
+                ids.add(idx)
+        out[number] = ids
+    return out
+
+COURSE_QUESTIONS = load_course_questions()
+
+class LessonAnswer(BaseModel):
+    answer: str
+
+def check_question(lesson_number: int, question_id: int):
+    if question_id not in COURSE_QUESTIONS.get(lesson_number, set()):
+        raise HTTPException(404, 'Pergunta não encontrada.')
+
+@app.get('/api/course/answers')
+def get_lesson_answers(user=Depends(current_user)):
+    """Respostas pessoais dos exercícios. Só o próprio participante tem acesso."""
+    out = {}
+    with database() as con:
+        for rec in con.execute('SELECT lesson_number,question_id,answer,updated_at FROM lesson_answers WHERE user_id=?', (user['id'],)):
+            out.setdefault(str(rec['lesson_number']), {})[str(rec['question_id'])] = {'answer': rec['answer'], 'updated_at': rec['updated_at']}
+    return {'answers': out}
+
+@app.put('/api/course/answers/{lesson_number}/{question_id}')
+def save_lesson_answer(lesson_number: int, question_id: int, data: LessonAnswer, user=Depends(current_user), _: None=Depends(csrf_protect)):
+    check_question(lesson_number, question_id)
+    text = data.answer.replace('\r\n', '\n').strip()
+    if not text:
+        raise HTTPException(422, 'Escreva sua resposta antes de salvar.')
+    if len(text) > MAX_ANSWER_CHARS:
+        raise HTTPException(422, f'A resposta pode ter até {MAX_ANSWER_CHARS} caracteres.')
+    stamp = now()
+    with database() as con:
+        con.execute('''INSERT INTO lesson_answers(user_id,lesson_number,question_id,answer,updated_at)
+                       VALUES(?,?,?,?,?) ON CONFLICT(user_id,lesson_number,question_id) DO UPDATE SET
+                       answer=excluded.answer,updated_at=excluded.updated_at''',
+                    (user['id'], lesson_number, question_id, text, stamp))
+    return {'ok': True, 'answer': text, 'updated_at': stamp}
+
+@app.delete('/api/course/answers/{lesson_number}/{question_id}')
+def delete_lesson_answer(lesson_number: int, question_id: int, user=Depends(current_user), _: None=Depends(csrf_protect)):
+    check_question(lesson_number, question_id)
+    with database() as con:
+        con.execute('DELETE FROM lesson_answers WHERE user_id=? AND lesson_number=? AND question_id=?',
+                    (user['id'], lesson_number, question_id))
+    return {'ok': True}
 
 @app.get('/health')
 def health():
