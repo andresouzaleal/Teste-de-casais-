@@ -18,7 +18,7 @@ from email.message import EmailMessage
 from typing import Literal, Optional
 
 from fastapi import FastAPI, Request, HTTPException, Depends, BackgroundTasks
-from fastapi.responses import FileResponse, JSONResponse, StreamingResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, StreamingResponse, RedirectResponse
 from pydantic import BaseModel, Field, StrictInt, field_validator
 from starlette.middleware.sessions import SessionMiddleware
 
@@ -371,13 +371,26 @@ async def security_headers(request, call_next):
         response.headers['Cache-Control'] = 'no-store'
     return response
 
+# Em ambientes de teste, ENV_BANNER (por exemplo "STAGING") mostra uma tarja vermelha
+# no topo de todas as páginas. Em produção a variável não existe e nada muda.
+ENV_BANNER = re.sub(r'[^A-Za-z0-9 ._-]', '', os.getenv('ENV_BANNER', ''))[:30].strip()
+
+def html_page(name: str):
+    if not ENV_BANNER:
+        return FileResponse(STATIC / name)
+    html = (STATIC / name).read_text('utf-8')
+    tag = f'<div class="env-banner" role="note">{ENV_BANNER} · ambiente de testes</div>'
+    html = html.replace('<body>', '<body class="has-env-banner">' + tag, 1)
+    html = re.sub(r'<title>', f'<title>[{ENV_BANNER}] ', html, count=1)
+    return HTMLResponse(html, headers={'Cache-Control': 'no-store'})
+
 @app.get('/')
 def index():
-    return FileResponse(STATIC / 'index.html')
+    return html_page('index.html')
 
 @app.get('/admin')
 def admin():
-    return FileResponse(STATIC / 'admin.html')
+    return html_page('admin.html')
 
 @app.get('/styles.css')
 def styles():

@@ -232,3 +232,7 @@ html{scroll-padding-top:112px}body{background:#faf7f4}.site-header{position:stic
 .password-eye{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:38px;height:38px;display:grid;place-items:center;border:0;border-radius:10px;background:transparent;color:#7a6a7a;cursor:pointer;padding:0}
 .password-eye:hover{background:#f2ebf1;color:var(--plum)}
 .password-eye:focus-visible{outline:3px solid var(--gold);outline-offset:1px}
+
+/* Tarja vermelha dos ambientes de teste (só aparece quando ENV_BANNER está definido) */
+.env-banner{position:sticky;top:0;z-index:200;background:#c62828;color:#fff;text-align:center;font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;line-height:1.3}
+.has-env-banner .site-header{top:34px}

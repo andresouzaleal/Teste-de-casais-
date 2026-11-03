@@ -68,3 +68,12 @@ def test_account_deletion_removes_lesson_answers():
             assert con.execute('SELECT COUNT(*) FROM lesson_answers').fetchone()[0] == 0
     finally:
         tmp.cleanup()
+
+
+def test_env_banner_only_when_configured(monkeypatch):
+    c = TestClient(main.app)
+    assert 'env-banner' not in c.get('/').text
+    monkeypatch.setattr(main, 'ENV_BANNER', 'STAGING')
+    page = c.get('/').text
+    assert 'class="env-banner"' in page and '<title>[STAGING]' in page
+    assert 'env-banner' in c.get('/admin').text
