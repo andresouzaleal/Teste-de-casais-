@@ -253,3 +253,12 @@ readAccountLink();
 window.addEventListener('hashchange',()=>{readAccountLink();render();});
 loadSession().then(()=>render()).catch(e=>{app.innerHTML=`<section class="panel"><h2>Não foi possível conectar</h2><p>${esc(e.message)}</p><p>Confirme se o servidor está em execução e recarregue a página.</p></section>`;});
 if('serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
+
+// Botão "olhinho" para mostrar/ocultar a senha em todos os campos de senha.
+(()=>{const EYE='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>';
+ const EYE_OFF='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10.7 10.7 0 0 1 12 5c6.4 0 10 7 10 7a17.6 17.6 0 0 1-3.2 4.1M6.6 6.6A17.3 17.3 0 0 0 2 12s3.6 7 10 7a10 10 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
+ function enhance(input){if(input.dataset.eye)return;input.dataset.eye='1';const wrap=document.createElement('span');wrap.className='password-wrap';input.parentNode.insertBefore(wrap,input);wrap.appendChild(input);
+  const b=document.createElement('button');b.type='button';b.className='password-eye';b.setAttribute('aria-label','Mostrar senha');b.innerHTML=EYE;wrap.appendChild(b);
+  b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const show=input.type==='password';input.type=show?'text':'password';b.innerHTML=show?EYE_OFF:EYE;b.setAttribute('aria-label',show?'Ocultar senha':'Mostrar senha');input.focus();});}
+ const scan=()=>document.querySelectorAll('input[type="password"]:not([data-eye])').forEach(enhance);
+ new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});scan();})();
