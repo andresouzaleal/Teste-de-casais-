@@ -117,6 +117,7 @@ def init_db():
             con.execute('ALTER TABLE users ADD COLUMN email_verified INTEGER NOT NULL DEFAULT 0')
         con.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_email ON users(email) WHERE email IS NOT NULL')
 
+
 init_db()
 
 def now():
@@ -652,3 +653,17 @@ def delete_lesson_answer(lesson_number: int, question_id: int, user=Depends(curr
 @app.get('/health')
 def health():
     return {'status':'ok'}
+
+
+def seed_test_admin():
+    """Só para o site de testes: cria um admin se TEST_ADMIN_PHONE e TEST_ADMIN_PASSWORD
+    estiverem definidos. Em produção essas variáveis não existem e nada acontece."""
+    phone, password = os.getenv('TEST_ADMIN_PHONE', ''), os.getenv('TEST_ADMIN_PASSWORD', '')
+    if not phone or len(password) < 12:
+        return
+    t = now()
+    with database() as con:
+        con.execute('''INSERT OR IGNORE INTO users(name,phone,gender,password_hash,role,accepted_at,created_at)
+                       VALUES(?,?,?,?,?,?,?)''', ('Admin Teste', phone_normalize(phone), 'M', hash_password(password), 'admin', t, t))
+
+seed_test_admin()
