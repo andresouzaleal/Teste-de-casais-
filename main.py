@@ -9,6 +9,7 @@ import re
 import secrets
 import smtplib
 import ssl
+import tempfile
 import sqlite3
 import time
 from contextlib import contextmanager
@@ -118,6 +119,34 @@ def init_db():
         con.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_email ON users(email) WHERE email IS NOT NULL')
 
 
+# --- Mudança de endereço (temporário) ---------------------------------------------------
+# No site NOVO: com MIGRATE_FROM e MIGRATION_TOKEN definidos e sem banco no disco, baixa o
+# banco do site antigo antes de iniciar. Se falhar, o app não sobe (evita abrir com banco vazio).
+def import_db_from_old_site():
+    source, token = os.getenv('MIGRATE_FROM', '').rstrip('/'), os.getenv('MIGRATION_TOKEN', '')
+    if not source or len(token) < 32:
+        return
+    if DB_PATH.exists():
+        print(f'[migração] banco já existe em {DB_PATH}; nada a importar.', flush=True)
+        return
+    import urllib.request
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = DB_PATH.with_suffix('.importando')
+    req = urllib.request.Request(source + '/api/internal/db-backup', headers={'X-Migration-Token': token})
+    with urllib.request.urlopen(req, timeout=120) as resp, open(tmp, 'wb') as out:
+        while chunk := resp.read(1 << 16):
+            out.write(chunk)
+    con = sqlite3.connect(tmp)
+    try:
+        if con.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+            raise RuntimeError('Banco importado está corrompido.')
+        users = con.execute('SELECT COUNT(*) FROM users').fetchone()[0]
+    finally:
+        con.close()
+    tmp.replace(DB_PATH)
+    print(f'[migração] banco importado de {source}: {users} cadastros.', flush=True)
+
+import_db_from_old_site()
 init_db()
 
 def now():
@@ -370,6 +399,34 @@ async def security_headers(request, call_next):
     if request.url.path.startswith('/api/') or request.url.path in ('/', '/admin'):
         response.headers['Cache-Control'] = 'no-store'
     return response
+
+# No site ANTIGO: REDIRECT_TO manda todos os acessos para o novo endereço, mantendo o caminho
+# (assim o QR Code antigo continua funcionando). /health e o backup da migração continuam aqui.
+REDIRECT_TO = os.getenv('REDIRECT_TO', '').rstrip('/')
+
+@app.middleware('http')
+async def redirect_to_new_site(request, call_next):
+    path = request.url.path
+    if REDIRECT_TO and path not in ('/health', '/api/internal/db-backup'):
+        target = REDIRECT_TO + path + (('?' + request.url.query) if request.url.query else '')
+        return RedirectResponse(target, status_code=301 if request.method in ('GET', 'HEAD') else 308)
+    return await call_next(request)
+
+@app.get('/api/internal/db-backup')
+def db_backup(request: Request, background: BackgroundTasks):
+    """Cópia consistente do banco para o site novo. Só existe com MIGRATION_TOKEN definido."""
+    token = os.getenv('MIGRATION_TOKEN', '')
+    if len(token) < 32 or not hmac.compare_digest(request.headers.get('x-migration-token', ''), token):
+        raise HTTPException(404, 'Not Found')
+    fd, name = tempfile.mkstemp(suffix='.sqlite3'); os.close(fd)
+    src, dst = sqlite3.connect(DB_PATH), sqlite3.connect(name)
+    try:
+        src.backup(dst)
+    finally:
+        dst.close(); src.close()
+    background.add_task(os.remove, name)
+    print('[migração] backup do banco enviado ao site novo.', flush=True)
+    return FileResponse(name, media_type='application/octet-stream', headers={'Cache-Control': 'no-store'})
 
 # Em ambientes de teste, ENV_BANNER (por exemplo "STAGING") mostra uma tarja vermelha
 # no topo de todas as páginas. Em produção a variável não existe e nada muda.
