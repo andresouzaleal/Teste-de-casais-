@@ -193,6 +193,10 @@ class PasswordUpdate(BaseModel):
     current_password: str
     new_password: str = Field(min_length=8, max_length=128)
 
+class AdminPasswordReset(BaseModel):
+    admin_password: str = Field(max_length=128)
+    new_password: str = Field(min_length=8, max_length=128)
+
 class DeleteAccount(BaseModel):
     password: str
 
@@ -529,6 +533,25 @@ def registrations(q: str='', page: int=1, user=Depends(admin_user)):
         {'id':r['id'],'name':r['name'],'phone':r['phone'],'gender':r['gender'],'role':r['role'],
          'created_at':r['created_at'],'last_login_at':r['last_login_at'],
          'ti_answered':count_answers(r['ti']),'la_answered':count_answers(r['la'])} for r in rows]}
+
+@app.post('/api/admin/users/{user_id}/password')
+def admin_reset_password(user_id: int, data: AdminPasswordReset, user=Depends(admin_user), _: None=Depends(csrf_protect)):
+    """O administrador define uma nova senha para um participante que perdeu o acesso."""
+    throttle(f"admin-reset:{user['id']}", max_attempts=20)
+    if not verify_password(data.admin_password, user['password_hash']):
+        raise HTTPException(400, 'Sua senha de administrador está incorreta.')
+    if user_id == user['id']:
+        raise HTTPException(400, 'Para trocar a sua própria senha, use Meu perfil.')
+    with database() as con:
+        target = con.execute('SELECT id FROM users WHERE id=?', (user_id,)).fetchone()
+        if not target:
+            raise HTTPException(404, 'Cadastro não encontrado.')
+        # Encerra as sessões abertas do participante e invalida links de recuperação pendentes.
+        con.execute('UPDATE users SET password_hash=?,session_version=session_version+1 WHERE id=?',
+                    (hash_password(data.new_password), user_id))
+        con.execute("DELETE FROM account_tokens WHERE user_id=? AND purpose='reset'", (user_id,))
+    print(f'[admin] senha redefinida: participante id={user_id} por admin id={user["id"]}', flush=True)
+    return {'ok': True}
 
 @app.get('/api/admin/export.csv')
 def export(q: str='', user=Depends(admin_user)):

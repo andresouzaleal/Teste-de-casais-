@@ -214,3 +214,14 @@ html{scroll-padding-top:112px}body{background:#faf7f4}.site-header{position:stic
 .lesson-answer-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .lesson-answer-delete{color:var(--red)}
 @media print{.lesson-answer-actions{display:none}.lesson-answer textarea{border:0}}
+
+/* Admin: redefinir senha */
+.admin-dialog{border:0;border-radius:20px;padding:0;width:min(440px,calc(100% - 32px));box-shadow:0 30px 80px rgba(40,25,40,.28)}
+.admin-dialog::backdrop{background:rgba(40,28,45,.45)}
+.admin-dialog-body{padding:26px 24px 22px}
+.admin-dialog-body h2{font-size:26px;margin:6px 0 8px}
+.admin-dialog-body .field-label{margin-top:14px}
+.admin-pass-row{display:flex;gap:8px;align-items:center}
+.admin-pass-row .field{flex:1;min-width:0;font-family:ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em}
+.admin-dialog-error{color:var(--red);font-size:13px;min-height:18px;margin:10px 0 4px}
+.admin-dialog .button-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
