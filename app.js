@@ -100,18 +100,38 @@ function courseBlock(block){
  if(block.kind==='challenge')return `<div class="reading-challenges"><h3>Desafio da Semana</h3><ol>${block.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`;
  return `<p class="reading-paragraph">${courseRich(block)}</p>`;
 }
+// Respostas dos exercícios da "Reflexão em Casal", salvas na conta de cada participante.
+function courseQuestionIds(lesson){const ids=new Set();let head='';lesson.blocks.forEach((b,i)=>{if(b.kind==='heading')head=b.text||'';else if(head.startsWith('Reflexão')&&(b.kind==='text'||b.kind==='bullet')&&/^\d+[.)]\s/.test(b.text||''))ids.add(i);});return ids;}
+function lessonAnswer(n,q){return state.lessonAnswers?.[String(n)]?.[String(q)]||null;}
+function answerDate(iso){try{return new Date(iso).toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'});}catch{return '';}}
+function answerBox(n,q){const a=lessonAnswer(n,q),editing=state.answerEditing===`${n}-${q}`,id=`ans-${n}-${q}`,data=`data-lesson="${n}" data-q="${q}"`;
+ if(a&&!editing)return `<div class="lesson-answer saved" id="${id}"><div class="lesson-answer-label">Sua resposta · salva em ${esc(answerDate(a.updated_at))}</div><p class="lesson-answer-text">${esc(a.answer)}</p><div class="lesson-answer-actions"><button type="button" class="btn btn-secondary btn-small" data-action="answer-edit" ${data}>Editar</button><button type="button" class="btn btn-plain btn-small lesson-answer-delete" data-action="answer-delete" ${data}>Apagar</button></div></div>`;
+ return `<div class="lesson-answer" id="${id}"><label class="lesson-answer-label" for="${id}-t">Sua resposta</label><textarea id="${id}-t" maxlength="5000" rows="4" placeholder="Escreva aqui a sua reflexão…">${esc(a?.answer||'')}</textarea><div class="lesson-answer-actions"><button type="button" class="btn btn-primary btn-small" data-action="answer-save" ${data}>Salvar resposta</button>${a?`<button type="button" class="btn btn-secondary btn-small" data-action="answer-cancel" ${data}>Cancelar</button>`:''}</div></div>`;}
+function refreshAnswer(n,q){const el=document.getElementById(`ans-${n}-${q}`);if(el)el.outerHTML=answerBox(n,q);}
+function lessonContent(lesson){const qs=courseQuestionIds(lesson);return lesson.blocks.map((b,i)=>courseBlock(b)+(qs.has(i)?answerBox(lesson.number,i):'')).join('');}
+async function handleAnswerAction(action,node){const n=Number(node.dataset.lesson),q=Number(node.dataset.q);if(!Number.isInteger(n)||!Number.isInteger(q))return;const key=`${n}-${q}`;
+ if(action==='answer-edit'){state.answerEditing=key;refreshAnswer(n,q);const t=document.getElementById(`ans-${n}-${q}-t`);if(t){t.focus();t.setSelectionRange(t.value.length,t.value.length);}return;}
+ if(action==='answer-cancel'){state.answerEditing=null;refreshAnswer(n,q);return;}
+ if(action==='answer-save'){const t=document.getElementById(`ans-${n}-${q}-t`);const text=(t?.value||'').trim();if(!text){toast('Escreva sua resposta antes de salvar.');t?.focus();return;}
+  node.disabled=true;node.textContent='Salvando…';
+  try{const r=await api(`/api/course/answers/${n}/${q}`,'PUT',{answer:text});state.lessonAnswers=state.lessonAnswers||{};(state.lessonAnswers[String(n)]=state.lessonAnswers[String(n)]||{})[String(q)]={answer:r.answer,updated_at:r.updated_at};if(state.answerEditing===key)state.answerEditing=null;refreshAnswer(n,q);toast('Resposta salva.');}
+  catch(e){node.disabled=false;node.textContent='Salvar resposta';toast(e.message);}return;}
+ if(action==='answer-delete'){if(!confirm('Apagar esta resposta? Não será possível recuperá-la.'))return;node.disabled=true;
+  try{await api(`/api/course/answers/${n}/${q}`,'DELETE');if(state.lessonAnswers?.[String(n)])delete state.lessonAnswers[String(n)][String(q)];if(state.answerEditing===key)state.answerEditing=null;refreshAnswer(n,q);toast('Resposta apagada.');}
+  catch(e){node.disabled=false;toast(e.message);}return;}
+}
 function courseBody(lesson){const prev=lesson.number>1?`<button class="btn btn-secondary" data-action="lesson" data-lesson="${lesson.number-1}" type="button">Aula anterior</button>`:'';
  const next=lesson.number<12?`<button class="btn btn-primary" data-action="lesson" data-lesson="${lesson.number+1}" type="button">Próxima aula ${icon('arrow')}</button>`:`<button class="btn btn-primary" data-action="course" type="button">Voltar ao curso ${icon('arrow')}</button>`;
  app.innerHTML=`<div class="quiz-head"><button class="back-link" data-action="course" type="button">${icon('back')} Todas as aulas</button><span class="status-chip">Lição ${lesson.number} de 12</span></div>
- <div class="alianca-reading-control"><button type="button" data-action="lesson-unread" data-lesson="${lesson.number}">Marcar como não lida</button></div><article class="reading-article"><header class="reading-hero"><div class="eyebrow">CURSO DE CASAIS ALIANÇA · SEMANA ${lesson.week}</div><h1>${esc(lesson.title)}</h1><p>${esc(lesson.subtitle)}</p></header><div class="reading-content">${lesson.blocks.map(courseBlock).join('')}</div></article>
+ <div class="alianca-reading-control"><button type="button" data-action="lesson-unread" data-lesson="${lesson.number}">Marcar como não lida</button></div><article class="reading-article"><header class="reading-hero"><div class="eyebrow">CURSO DE CASAIS ALIANÇA · SEMANA ${lesson.week}</div><h1>${esc(lesson.title)}</h1><p>${esc(lesson.subtitle)}</p></header><div class="reading-content">${lessonContent(lesson)}</div></article>
  ${lesson.number===8?`<section class="lesson-tests"><div class="eyebrow">DINÂMICAS DA LIÇÃO 8</div><h2>Da reflexão à prática</h2><p>Realizem individualmente o Termômetro da Intimidade e as 5 Linguagens do Amor. As respostas já são salvas no sistema de testes.</p><div class="button-row">${btn('choose','Termômetro da Intimidade','primary','data-t="TI"')}${btn('choose','5 Linguagens do Amor','secondary','data-t="LA"')}</div></section>`:''}
- <div class="lesson-navigation">${prev}${next}</div><p class="reading-footer">Esta é uma leitura da apostila do curso. As respostas dos exercícios não são coletadas nesta tela; conversem e registrem suas anotações no material pessoal de vocês.</p>`;
+ <div class="lesson-navigation">${prev}${next}</div><p class="reading-footer">Esta é uma leitura da apostila do curso. Suas respostas da Reflexão em Casal ficam salvas na sua conta: só você pode vê-las, editá-las ou apagá-las. A equipe administrativa não tem acesso a elas.</p>`;
 }
 async function renderLesson(){const n=Number(state.lesson);
  if(!state.user){state.pendingLesson=n;state.authMode='login';return jump('auth');}
  app.innerHTML=`<div class="quiz-head"><button class="back-link" data-action="course" type="button">${icon('back')} Todas as aulas</button></div><section class="panel"><p>Carregando a lição ${n}…</p></section>`;
  try{
-  const data=state.courseData||await api('/api/course');state.courseData=data;
+  const [data,saved]=await Promise.all([state.courseData||api('/api/course'),api('/api/course/answers').catch(()=>({answers:{}}))]);state.courseData=data;state.lessonAnswers=saved.answers||{};state.answerEditing=null;
   if(state.view!=='lesson'||state.lesson!==n)return;
   const lesson=data.lessons.find(l=>l.number===n);
   if(!lesson)throw Error('Lição não encontrada.');
@@ -201,6 +221,7 @@ async function handleForm(event){const f=event.target;if(!['auth-form','profile-
  else if(f.id==='password-form'){await api('/api/profile/password','POST',data);state.user=null;await loadSession();state.authMode='login';jump('auth');toast('Senha alterada. Entre novamente.');}
  }catch(e){let node=f.querySelector('.errorline');if(!node)node=document.querySelector('#auth-feedback');if(node)node.textContent=e.message;else toast(e.message);}finally{if(document.contains(submit))submit.disabled=false;}}
 async function handleAction(event){const node=event.target.closest('[data-action]');if(!node)return;event.preventDefault();const action=node.dataset.action;
+ if(action.startsWith('answer-')){await handleAnswerAction(action,node);return;}
  if(action==='home'){state.test=null;state.external=null;jump('home');return;}
   if(action==='course'){state.test=null;state.external=null;jump('course');return;}
   if(action==='tests'){state.test=null;state.external=null;jump('tests');return;}
@@ -232,3 +253,12 @@ readAccountLink();
 window.addEventListener('hashchange',()=>{readAccountLink();render();});
 loadSession().then(()=>render()).catch(e=>{app.innerHTML=`<section class="panel"><h2>Não foi possível conectar</h2><p>${esc(e.message)}</p><p>Confirme se o servidor está em execução e recarregue a página.</p></section>`;});
 if('serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
+
+// Botão "olhinho" para mostrar/ocultar a senha em todos os campos de senha.
+(()=>{const EYE='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>';
+ const EYE_OFF='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10.7 10.7 0 0 1 12 5c6.4 0 10 7 10 7a17.6 17.6 0 0 1-3.2 4.1M6.6 6.6A17.3 17.3 0 0 0 2 12s3.6 7 10 7a10 10 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
+ function enhance(input){if(input.dataset.eye)return;input.dataset.eye='1';const wrap=document.createElement('span');wrap.className='password-wrap';input.parentNode.insertBefore(wrap,input);wrap.appendChild(input);
+  const b=document.createElement('button');b.type='button';b.className='password-eye';b.setAttribute('aria-label','Mostrar senha');b.innerHTML=EYE;wrap.appendChild(b);
+  b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const show=input.type==='password';input.type=show?'text':'password';b.innerHTML=show?EYE_OFF:EYE;b.setAttribute('aria-label',show?'Ocultar senha':'Mostrar senha');input.focus();});}
+ const scan=()=>document.querySelectorAll('input[type="password"]:not([data-eye])').forEach(enhance);
+ new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});scan();})();

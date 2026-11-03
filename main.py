@@ -9,6 +9,7 @@ import re
 import secrets
 import smtplib
 import ssl
+import tempfile
 import sqlite3
 import time
 from contextlib import contextmanager
@@ -18,7 +19,7 @@ from email.message import EmailMessage
 from typing import Literal, Optional
 
 from fastapi import FastAPI, Request, HTTPException, Depends, BackgroundTasks
-from fastapi.responses import FileResponse, JSONResponse, StreamingResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, StreamingResponse, RedirectResponse
 from pydantic import BaseModel, Field, StrictInt, field_validator
 from starlette.middleware.sessions import SessionMiddleware
 
@@ -39,7 +40,7 @@ app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY,
 PUBLIC_ASSETS = {
     'casal-carinho.webp', 'casal-conversa.webp', 'familia-penha.png',
     'icon-192.png', 'icon-512.png', 'icon.svg',
-    'logo-alianca-original.png', 'alianca-home.webp', 'alianca-curso.webp', 'alianca-testes.webp',
+    'logo-alianca-original.png', 'familia-penha-escuro.png', 'alianca-home.webp', 'alianca-curso.webp', 'alianca-testes.webp',
 }
 
 @app.get('/assets/{filename}')
@@ -101,6 +102,14 @@ def init_db():
             session_version INTEGER NOT NULL,
             expires_at INTEGER NOT NULL
         );
+        CREATE TABLE IF NOT EXISTS lesson_answers (
+            user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+            lesson_number INTEGER NOT NULL CHECK(lesson_number BETWEEN 1 AND 12),
+            question_id INTEGER NOT NULL,
+            answer TEXT NOT NULL,
+            updated_at TEXT NOT NULL,
+            PRIMARY KEY (user_id, lesson_number, question_id)
+        );
         ''')
         columns = {row['name'] for row in con.execute('PRAGMA table_info(users)')}
         if 'email' not in columns:
@@ -109,6 +118,35 @@ def init_db():
             con.execute('ALTER TABLE users ADD COLUMN email_verified INTEGER NOT NULL DEFAULT 0')
         con.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_email ON users(email) WHERE email IS NOT NULL')
 
+
+# --- Mudança de endereço (temporário) ---------------------------------------------------
+# No site NOVO: com MIGRATE_FROM e MIGRATION_TOKEN definidos e sem banco no disco, baixa o
+# banco do site antigo antes de iniciar. Se falhar, o app não sobe (evita abrir com banco vazio).
+def import_db_from_old_site():
+    source, token = os.getenv('MIGRATE_FROM', '').rstrip('/'), os.getenv('MIGRATION_TOKEN', '')
+    if not source or len(token) < 32:
+        return
+    if DB_PATH.exists():
+        print(f'[migração] banco já existe em {DB_PATH}; nada a importar.', flush=True)
+        return
+    import urllib.request
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = DB_PATH.with_suffix('.importando')
+    req = urllib.request.Request(source + '/api/internal/db-backup', headers={'X-Migration-Token': token})
+    with urllib.request.urlopen(req, timeout=120) as resp, open(tmp, 'wb') as out:
+        while chunk := resp.read(1 << 16):
+            out.write(chunk)
+    con = sqlite3.connect(tmp)
+    try:
+        if con.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+            raise RuntimeError('Banco importado está corrompido.')
+        users = con.execute('SELECT COUNT(*) FROM users').fetchone()[0]
+    finally:
+        con.close()
+    tmp.replace(DB_PATH)
+    print(f'[migração] banco importado de {source}: {users} cadastros.', flush=True)
+
+import_db_from_old_site()
 init_db()
 
 def now():
@@ -183,6 +221,10 @@ class ProfileUpdate(BaseModel):
 
 class PasswordUpdate(BaseModel):
     current_password: str
+    new_password: str = Field(min_length=8, max_length=128)
+
+class AdminPasswordReset(BaseModel):
+    admin_password: str = Field(max_length=128)
     new_password: str = Field(min_length=8, max_length=128)
 
 class DeleteAccount(BaseModel):
@@ -358,13 +400,54 @@ async def security_headers(request, call_next):
         response.headers['Cache-Control'] = 'no-store'
     return response
 
+# No site ANTIGO: REDIRECT_TO manda todos os acessos para o novo endereço, mantendo o caminho
+# (assim o QR Code antigo continua funcionando). /health e o backup da migração continuam aqui.
+REDIRECT_TO = os.getenv('REDIRECT_TO', '').rstrip('/')
+
+@app.middleware('http')
+async def redirect_to_new_site(request, call_next):
+    path = request.url.path
+    if REDIRECT_TO and path not in ('/health', '/api/internal/db-backup'):
+        target = REDIRECT_TO + path + (('?' + request.url.query) if request.url.query else '')
+        return RedirectResponse(target, status_code=301 if request.method in ('GET', 'HEAD') else 308)
+    return await call_next(request)
+
+@app.get('/api/internal/db-backup')
+def db_backup(request: Request, background: BackgroundTasks):
+    """Cópia consistente do banco para o site novo. Só existe com MIGRATION_TOKEN definido."""
+    token = os.getenv('MIGRATION_TOKEN', '')
+    if len(token) < 32 or not hmac.compare_digest(request.headers.get('x-migration-token', ''), token):
+        raise HTTPException(404, 'Not Found')
+    fd, name = tempfile.mkstemp(suffix='.sqlite3'); os.close(fd)
+    src, dst = sqlite3.connect(DB_PATH), sqlite3.connect(name)
+    try:
+        src.backup(dst)
+    finally:
+        dst.close(); src.close()
+    background.add_task(os.remove, name)
+    print('[migração] backup do banco enviado ao site novo.', flush=True)
+    return FileResponse(name, media_type='application/octet-stream', headers={'Cache-Control': 'no-store'})
+
+# Em ambientes de teste, ENV_BANNER (por exemplo "STAGING") mostra uma tarja vermelha
+# no topo de todas as páginas. Em produção a variável não existe e nada muda.
+ENV_BANNER = re.sub(r'[^A-Za-z0-9 ._-]', '', os.getenv('ENV_BANNER', ''))[:30].strip()
+
+def html_page(name: str):
+    if not ENV_BANNER:
+        return FileResponse(STATIC / name)
+    html = (STATIC / name).read_text('utf-8')
+    tag = f'<div class="env-banner" role="note">{ENV_BANNER} · ambiente de testes</div>'
+    html = html.replace('<body>', '<body class="has-env-banner">' + tag, 1)
+    html = re.sub(r'<title>', f'<title>[{ENV_BANNER}] ', html, count=1)
+    return HTMLResponse(html, headers={'Cache-Control': 'no-store'})
+
 @app.get('/')
 def index():
-    return FileResponse(STATIC / 'index.html')
+    return html_page('index.html')
 
 @app.get('/admin')
 def admin():
-    return FileResponse(STATIC / 'admin.html')
+    return html_page('admin.html')
 
 @app.get('/styles.css')
 def styles():
@@ -522,6 +605,25 @@ def registrations(q: str='', page: int=1, user=Depends(admin_user)):
          'created_at':r['created_at'],'last_login_at':r['last_login_at'],
          'ti_answered':count_answers(r['ti']),'la_answered':count_answers(r['la'])} for r in rows]}
 
+@app.post('/api/admin/users/{user_id}/password')
+def admin_reset_password(user_id: int, data: AdminPasswordReset, user=Depends(admin_user), _: None=Depends(csrf_protect)):
+    """O administrador define uma nova senha para um participante que perdeu o acesso."""
+    throttle(f"admin-reset:{user['id']}", max_attempts=20)
+    if not verify_password(data.admin_password, user['password_hash']):
+        raise HTTPException(400, 'Sua senha de administrador está incorreta.')
+    if user_id == user['id']:
+        raise HTTPException(400, 'Para trocar a sua própria senha, use Meu perfil.')
+    with database() as con:
+        target = con.execute('SELECT id FROM users WHERE id=?', (user_id,)).fetchone()
+        if not target:
+            raise HTTPException(404, 'Cadastro não encontrado.')
+        # Encerra as sessões abertas do participante e invalida links de recuperação pendentes.
+        con.execute('UPDATE users SET password_hash=?,session_version=session_version+1 WHERE id=?',
+                    (hash_password(data.new_password), user_id))
+        con.execute("DELETE FROM account_tokens WHERE user_id=? AND purpose='reset'", (user_id,))
+    print(f'[admin] senha redefinida: participante id={user_id} por admin id={user["id"]}', flush=True)
+    return {'ok': True}
+
 @app.get('/api/admin/export.csv')
 def export(q: str='', user=Depends(admin_user)):
     q=q.strip()[:100]
@@ -554,6 +656,84 @@ def course_material(user=Depends(current_user)):
     return FileResponse(ROOT / 'curso_alianca_12_aulas.json', media_type='application/json',
                         headers={'Cache-Control': 'private, no-store'})
 
+# Perguntas da "Reflexão em Casal" de cada aula. O id é a posição do bloco na lição,
+# então continua válido enquanto o JSON da apostila não for reorganizado.
+COURSE_FILE = ROOT / 'curso_alianca_12_aulas.json'
+MAX_ANSWER_CHARS = 5000
+
+def load_course_questions():
+    try:
+        data = json.loads(COURSE_FILE.read_text('utf-8'))
+    except (OSError, ValueError):
+        return {}
+    out = {}
+    for lesson in data.get('lessons', []):
+        number, heading, ids = int(lesson['number']), '', set()
+        for idx, block in enumerate(lesson.get('blocks', [])):
+            if block.get('kind') == 'heading':
+                heading = block.get('text', '')
+            elif heading.startswith('Reflexão') and block.get('kind') in ('text', 'bullet') \
+                    and re.match(r'^\d+[.)]\s', block.get('text', '')):
+                ids.add(idx)
+        out[number] = ids
+    return out
+
+COURSE_QUESTIONS = load_course_questions()
+
+class LessonAnswer(BaseModel):
+    answer: str
+
+def check_question(lesson_number: int, question_id: int):
+    if question_id not in COURSE_QUESTIONS.get(lesson_number, set()):
+        raise HTTPException(404, 'Pergunta não encontrada.')
+
+@app.get('/api/course/answers')
+def get_lesson_answers(user=Depends(current_user)):
+    """Respostas pessoais dos exercícios. Só o próprio participante tem acesso."""
+    out = {}
+    with database() as con:
+        for rec in con.execute('SELECT lesson_number,question_id,answer,updated_at FROM lesson_answers WHERE user_id=?', (user['id'],)):
+            out.setdefault(str(rec['lesson_number']), {})[str(rec['question_id'])] = {'answer': rec['answer'], 'updated_at': rec['updated_at']}
+    return {'answers': out}
+
+@app.put('/api/course/answers/{lesson_number}/{question_id}')
+def save_lesson_answer(lesson_number: int, question_id: int, data: LessonAnswer, user=Depends(current_user), _: None=Depends(csrf_protect)):
+    check_question(lesson_number, question_id)
+    text = data.answer.replace('\r\n', '\n').strip()
+    if not text:
+        raise HTTPException(422, 'Escreva sua resposta antes de salvar.')
+    if len(text) > MAX_ANSWER_CHARS:
+        raise HTTPException(422, f'A resposta pode ter até {MAX_ANSWER_CHARS} caracteres.')
+    stamp = now()
+    with database() as con:
+        con.execute('''INSERT INTO lesson_answers(user_id,lesson_number,question_id,answer,updated_at)
+                       VALUES(?,?,?,?,?) ON CONFLICT(user_id,lesson_number,question_id) DO UPDATE SET
+                       answer=excluded.answer,updated_at=excluded.updated_at''',
+                    (user['id'], lesson_number, question_id, text, stamp))
+    return {'ok': True, 'answer': text, 'updated_at': stamp}
+
+@app.delete('/api/course/answers/{lesson_number}/{question_id}')
+def delete_lesson_answer(lesson_number: int, question_id: int, user=Depends(current_user), _: None=Depends(csrf_protect)):
+    check_question(lesson_number, question_id)
+    with database() as con:
+        con.execute('DELETE FROM lesson_answers WHERE user_id=? AND lesson_number=? AND question_id=?',
+                    (user['id'], lesson_number, question_id))
+    return {'ok': True}
+
 @app.get('/health')
 def health():
     return {'status':'ok'}
+
+
+def seed_test_admin():
+    """Só para o site de testes: cria um admin se TEST_ADMIN_PHONE e TEST_ADMIN_PASSWORD
+    estiverem definidos. Em produção essas variáveis não existem e nada acontece."""
+    phone, password = os.getenv('TEST_ADMIN_PHONE', ''), os.getenv('TEST_ADMIN_PASSWORD', '')
+    if not phone or len(password) < 12:
+        return
+    t = now()
+    with database() as con:
+        con.execute('''INSERT OR IGNORE INTO users(name,phone,gender,password_hash,role,accepted_at,created_at)
+                       VALUES(?,?,?,?,?,?,?)''', ('Admin Teste', phone_normalize(phone), 'M', hash_password(password), 'admin', t, t))
+
+seed_test_admin()
