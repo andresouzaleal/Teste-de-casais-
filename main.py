@@ -412,6 +412,27 @@ async def redirect_to_new_site(request, call_next):
         return RedirectResponse(target, status_code=301 if request.method in ('GET', 'HEAD') else 308)
     return await call_next(request)
 
+# CANONICAL_HOST (ex.: casais.familiapenha.com.br) é o endereço oficial do app.
+# Acessos por outros endereços (o .onrender.com) vão para ele, mantendo o caminho.
+# Enquanto o site da igreja não existe, www.familiapenha.com.br/appcasais também
+# leva ao app (redirecionamento temporário, para o site futuro poder assumir o www).
+CANONICAL_HOST = os.getenv('CANONICAL_HOST', '').strip().lower()
+SHORTCUT_PATH = '/appcasais'
+
+@app.middleware('http')
+async def redirect_to_canonical_host(request, call_next):
+    host = request.headers.get('host', '').split(':')[0].lower()
+    path = request.url.path
+    if CANONICAL_HOST and host and host != CANONICAL_HOST and path != '/health':
+        base = 'https://' + CANONICAL_HOST
+        parent = CANONICAL_HOST.split('.', 1)[1] if '.' in CANONICAL_HOST else ''
+        if parent and host in (parent, 'www.' + parent):
+            rest = path[len(SHORTCUT_PATH):] if path == SHORTCUT_PATH or path.startswith(SHORTCUT_PATH + '/') else ''
+            return RedirectResponse(base + (rest or '/'), status_code=302)
+        query = ('?' + request.url.query) if request.url.query else ''
+        return RedirectResponse(base + path + query, status_code=301 if request.method in ('GET', 'HEAD') else 308)
+    return await call_next(request)
+
 @app.get('/api/internal/db-backup')
 def db_backup(request: Request, background: BackgroundTasks):
     """Cópia consistente do banco para o site novo. Só existe com MIGRATION_TOKEN definido."""
